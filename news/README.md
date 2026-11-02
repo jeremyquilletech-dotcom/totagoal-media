@@ -27,6 +27,14 @@ Option `--only=video` ou `--only=carousel`. Par actu : `cover.jpg`, `essentiel.j
 - Tout chiffre ou nom vient de la source ; rien n'est inventé.
 - Maximum 6 actus par jour (tous réseaux), 1 à 2 par passage, entre 08:00 et 22:00 (Europe/Paris).
 
+## Rumeurs mercato (activées par le propriétaire, TikTok compris, à titre d'essai)
+- Catégorie `RUMEUR` (pastille violette), `bg` `contrat` ou `logo`. Titre toujours au conditionnel et attribué : « selon <média 1> et <média 2> », jamais « X signe ». Le deck répète « rumeur, non confirmée ». `facts` : 3 faits tirés des articles, au conditionnel.
+- Il faut AU MOINS DEUX des médias sources (RMC Sport, Foot Mercato, BBC Sport, ou tout autre média sérieux trouvé) qui reprennent la même rumeur le même jour. Une seule source = ignoré.
+- Sujets permis : transfert, prêt, prolongation, arrivée ou départ d'entraîneur. Interdits : vie privée, santé, argent personnel, mineurs (moins de 18 ans), justice.
+- Quota : 2 rumeurs par jour au maximum sur l'ensemble des réseaux, dont 1 au maximum sur TikTok ; elles comptent dans les 6 actus du jour. Jamais deux rumeurs de suite.
+- Si une rumeur est confirmée ou démentie plus tard, ne PAS la republier ; une actu confirmée est traitée comme une actu normale.
+- Texte du post : commence par « Rumeur : » et cite les deux médias.
+
 ## Règles TikTok (compte déjà averti : 3 strikes = bannissement)
 - TikTok = vidéo uniquement, 3 par jour maximum, catégories COACH / TRANSFERT / INFO seulement.
 - JAMAIS de résultats de matchs, de scores, de matchs à venir, d'avant-match, de calendrier, de classement, de programme.
