@@ -27,7 +27,6 @@
    "networks": [
     "youtube",
     "instagram",
-    "tiktok",
     "facebook",
     "threads",
     "linkedin",
@@ -47,7 +46,7 @@
   "day": {
    "date": "2026-11-02",
    "all": 2,
-   "tiktok": 2
+   "tiktok": 1
   }
  }
 }
