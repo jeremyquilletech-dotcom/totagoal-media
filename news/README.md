@@ -43,6 +43,12 @@ Réseaux : facebook, instagram, threads, linkedin, youtube, tiktok, pinterest. X
 - X (twitter) et Bluesky (si connectés à la marque) : un seul post avec `cover.jpg` (carrousel les jours d'alternance impairs : cover + essentiel). Texte court : Bluesky 300 caractères maximum (sinon ne pas réessayer, raccourcir), X un seul post (pas de fil). `blueskyData` {postLanguages ["fr"]}, `twitterData` {tags: []}. Mêmes règles de confirmation et de ton que les autres réseaux.
 - Après chaque création : relire le post avec getScheduledPosts (le media doit être passé en static.metricool.com) ; ne jamais créer deux fois le même post.
 
+## Hashtags (importants : bien choisis, jamais copiés-collés d'une actu à l'autre)
+- Choisis-les POUR CETTE ACTU, dans cet ordre : 1) le club ou la personne concernée (#OL #PSG #LeHavre #Mbappé), 2) la compétition (#Ligue1 #PremierLeague #LaLiga #SerieA #LigueDesChampions), 3) le type d'actu (#mercato pour un transfert, #entraineur ou #limogeage pour un coach, #resultat pour un score — sauf TikTok), 4) un large (#foot #football #actufoot), 5) #TotaGoal une fois sur deux.
+- Hashtags réels et courants uniquement (sans espace ni tiret), écrits comme les fans les écrivent ; aucun hashtag inventé, aucun sans rapport avec l'actu.
+- Nombre par réseau : Instagram 5, Facebook 3, Threads 1 à 2, LinkedIn 3, YouTube 3 dans la description + #Shorts dans le titre, TikTok 4 maximum (jamais de mot interdit, jamais #pronostic/#pari/#bet), Pinterest 5, X 2, Bluesky 2.
+- Ne jamais réutiliser exactement la même série que l'actu précédente (vérifier dans posted.json, champ `hashtags` : l'enregistrer à chaque actu).
+
 ## Hébergement des fichiers
 Pousser sur cette branche `news` : ajouter `news/out/AAAA-MM-JJ/...` et `news/state/posted.json` (`git add` des chemins précis, jamais `-A`). URL publique : `https://raw.githubusercontent.com/jeremyquilletech-dotcom/totagoal-media/news/news/out/AAAA-MM-JJ/<id>/<fichier>`.
 Nettoyage : supprimer uniquement les dossiers `news/out/<date>` de plus de 3 jours (`git rm -r news/out/<date>`). Push normal ; si la branche a avancé, `git pull --rebase` puis repousser. Ne jamais toucher à la branche `main` de ce dépôt.
