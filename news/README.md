@@ -33,12 +33,14 @@ Option `--only=video` ou `--only=carousel`. Par actu : `cover.jpg`, `essentiel.j
 - JAMAIS les mots : pronostic(s), pronostiquer, pari(s), parier, bet, betting, cote(s), mise, bookmaker, gagner de l'argent (dans le texte, le titre, les hashtags, et sur l'image). Relire le texte avant envoi. Hashtags : #foot #football #mercato #ligue1 maximum 4, sans mot interdit.
 
 ## Publication Metricool (blogId 6378704, fuseau Europe/Paris)
-Réseaux de la marque : facebook, instagram, threads, linkedin, youtube, tiktok (pas de X ni Bluesky). Pinterest : pas pour les actus.
+Réseaux : facebook, instagram, threads, linkedin, youtube, tiktok, pinterest. X (provider "twitter") et Bluesky : à utiliser SEULEMENT s'ils apparaissent dans networksData de la marque 6378704 (getBrandSettings) ; sinon les ignorer sans erreur.
 - Heure : maintenant + 10 minutes (jamais dans le passé). Texte court en français : 1 phrase + « 👉 totagoal.com » + 3 à 5 hashtags.
 - YouTube : toujours la vidéo (`youtubeData` {title ≤ 90 car. + « #Shorts », type "short", privacy "public", madeForKids false, category "SPORTS", isAiGeneratedContent false}).
 - TikTok : vidéo (règles ci-dessus). `tiktokData` {privacyOption PUBLIC_TO_EVERYONE, title = début du texte, 90 car. max}.
 - Instagram : toujours un Reel (vidéo) — `instagramData` {type REEL, showReelOnFeed true, isAiGenerated false}.
 - Facebook, Threads, LinkedIn : on ALTERNE carrousel / vidéo d'une actu à l'autre (compteur `counters.alt` : pair = carrousel, impair = vidéo). Carrousel = media [cover, essentiel, cta] en .jpg ; Facebook `facebookData` {type POST} ou {type REEL, title} pour la vidéo ; LinkedIn `linkedinData` {type post, previewIncluded true} ; Threads `threadsData` {}.
+- Pinterest : un pin avec l'image `cover.jpg` (pas de vidéo) — `pinterestData` {boardId "1129207375260824094", pinTitle = titre (100 car. max), pinLink "https://totagoal.com/", pinNewFormat true, isAiGenerated false}. Texte = phrase + 5 hashtags.
+- X (twitter) et Bluesky (si connectés à la marque) : un seul post avec `cover.jpg` (carrousel les jours d'alternance impairs : cover + essentiel). Texte court : Bluesky 300 caractères maximum (sinon ne pas réessayer, raccourcir), X un seul post (pas de fil). `blueskyData` {postLanguages ["fr"]}, `twitterData` {tags: []}. Mêmes règles de confirmation et de ton que les autres réseaux.
 - Après chaque création : relire le post avec getScheduledPosts (le media doit être passé en static.metricool.com) ; ne jamais créer deux fois le même post.
 
 ## Hébergement des fichiers
