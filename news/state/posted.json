@@ -18,7 +18,8 @@
     "#Fonseca",
     "#Ligue1",
     "#mercato"
-   ]
+   ],
+   "league": "Ligue 1"
   },
   {
    "key": "udinese-runjaic-limogeage-coach",
@@ -37,16 +38,38 @@
     "#SerieA",
     "#Runjaic",
     "#entraineur"
+   ],
+   "league": "Serie A"
+  },
+  {
+   "key": "kane-bayern-prolongation-declaration",
+   "title": "Bayern : Harry Kane « extrêmement proche » d'une prolongation",
+   "league": "Bundesliga",
+   "date": "2026-11-02",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Kane",
+    "#Bayern",
+    "#Bundesliga",
+    "#football"
    ]
   }
  ],
  "counters": {
-  "alt": 2,
-  "music": 2,
+  "alt": 3,
+  "music": 3,
   "day": {
    "date": "2026-11-02",
-   "all": 2,
-   "tiktok": 1
+   "all": 3,
+   "tiktok": 2
   }
  }
 }
