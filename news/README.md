@@ -35,10 +35,11 @@ Option `--only=video` ou `--only=carousel`. Par actu : `cover.jpg`, `essentiel.j
 - Actu de moins de 4 heures (pubDate), sinon ignorée. Jamais deux fois le même sujet (voir `state/posted.json`, comparer le club + la personne + le type, pas seulement l'URL).
 - Uniquement des faits CONFIRMÉS : limogeage/nomination officielle, transfert officiel, résultat final, déclaration citée entre guillemets. Un départ ou transfert annoncé par un seul média, une « piste », « pourrait », « serait », « selon nos informations » = ignoré, sauf si au moins deux des trois sources le confirment (le titre doit alors dire « selon <média> »).
 - Interdits : décès, blessure grave, procès, scandale, mineurs, politique, drame, violence, propos discriminatoires, rumeur, photo de joueur. Aucune promesse de gain, aucun conseil de pari.
+- Vocabulaire : jamais le mot « pari » ni « parier » dans aucun texte (même au sens figuré : écrire « idée », « choix », « coup »), sur aucun réseau ; « pronostic » est permis hors TikTok.
 - Tout chiffre ou nom vient de la source ; rien n'est inventé.
 - NOUVEAUTÉ OBLIGATOIRE : chaque passage doit publier des infos NOUVELLES. Avant de choisir, relire `state/posted.json` : jamais le même sujet que les passages précédents (même club, même personne, même type d'événement). Un suivi du même sujet (ex. le successeur d'un entraîneur déjà traité) n'est permis que s'il apporte un fait nouveau et officiel, avec un autre titre et un autre visuel.
 - L'événement lui-même doit dater des dernières 24 heures (lire la date dans l'article) : un flux RSS remet parfois en tête une vieille info (ex. un limogeage de samedi) ; dans ce cas, l'ignorer.
-- Maximum 6 actus par jour (tous réseaux), 1 à 2 par passage, entre 08:00 et 22:00 (Europe/Paris).
+- Maximum 6 actus par jour (tous réseaux), 1 à 2 par passage, aux créneaux 08:17 à 22:17 inclus (Europe/Paris) ; ne rien publier au-delà de 22:45.
 
 ## Rumeurs mercato (activées par le propriétaire, TikTok compris, à titre d'essai)
 - Catégorie `RUMEUR` (pastille violette), `bg` `contrat` ou `logo`. Titre toujours au conditionnel et attribué : « selon <média 1> et <média 2> », jamais « X signe ». Le deck répète « rumeur, non confirmée ». `facts` : 3 faits tirés des articles, au conditionnel.
