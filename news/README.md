@@ -25,6 +25,8 @@ Option `--only=video` ou `--only=carousel`. Par actu : `cover.jpg`, `essentiel.j
 - Uniquement des faits CONFIRMÉS : limogeage/nomination officielle, transfert officiel, résultat final, déclaration citée entre guillemets. Un départ ou transfert annoncé par un seul média, une « piste », « pourrait », « serait », « selon nos informations » = ignoré, sauf si au moins deux des trois sources le confirment (le titre doit alors dire « selon <média> »).
 - Interdits : décès, blessure grave, procès, scandale, mineurs, politique, drame, violence, propos discriminatoires, rumeur, photo de joueur. Aucune promesse de gain, aucun conseil de pari.
 - Tout chiffre ou nom vient de la source ; rien n'est inventé.
+- NOUVEAUTÉ OBLIGATOIRE : chaque passage doit publier des infos NOUVELLES. Avant de choisir, relire `state/posted.json` : jamais le même sujet que les passages précédents (même club, même personne, même type d'événement). Un suivi du même sujet (ex. le successeur d'un entraîneur déjà traité) n'est permis que s'il apporte un fait nouveau et officiel, avec un autre titre et un autre visuel.
+- L'événement lui-même doit dater des dernières 24 heures (lire la date dans l'article) : un flux RSS remet parfois en tête une vieille info (ex. un limogeage de samedi) ; dans ce cas, l'ignorer.
 - Maximum 6 actus par jour (tous réseaux), 1 à 2 par passage, entre 08:00 et 22:00 (Europe/Paris).
 
 ## Rumeurs mercato (activées par le propriétaire, TikTok compris, à titre d'essai)
