@@ -1,1 +1,53 @@
-{"stories":[],"counters":{"alt":0,"music":0,"day":{"date":"","all":0,"tiktok":0}}}
+{
+ "stories": [
+  {
+   "key": "ol-fonseca-depart-coach",
+   "title": "OL : Paulo Fonseca annonce son départ à son groupe, direction le Sporting",
+   "date": "2026-11-02",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#OL",
+    "#Fonseca",
+    "#Ligue1",
+    "#mercato"
+   ]
+  },
+  {
+   "key": "udinese-runjaic-limogeage-coach",
+   "title": "Serie A : l'Udinese démet Kosta Runjaic de ses fonctions",
+   "date": "2026-11-02",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Udinese",
+    "#SerieA",
+    "#Runjaic",
+    "#entraineur"
+   ]
+  }
+ ],
+ "counters": {
+  "alt": 2,
+  "music": 2,
+  "day": {
+   "date": "2026-11-02",
+   "all": 2,
+   "tiktok": 2
+  }
+ }
+}
