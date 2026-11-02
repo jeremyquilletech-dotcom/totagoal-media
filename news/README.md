@@ -20,7 +20,15 @@ Option `--only=video` ou `--only=carousel`. Par actu : `cover.jpg`, `essentiel.j
 - Titre : 90 caractères au mieux ; 3 faits courts, strictement tirés de la source.
 
 ## Règles de choix des actus (OBLIGATOIRES)
-- Sources : flux RSS RMC Sport `https://rmcsport.bfmtv.com/rss/football/`, Foot Mercato `https://www.footmercato.net/flux-rss`, BBC Sport `https://feeds.bbci.co.uk/sport/football/rss.xml` (L'Équipe bloque les robots). Lire aussi l'article (WebFetch) avant d'écrire si le résumé est mince.
+- Sources (flux RSS, tous testés et en direct le 02/11/2026 ; lire aussi l'article avant d'écrire si le résumé est mince) :
+  - France : RMC Sport `https://rmcsport.bfmtv.com/football/` → `https://rmcsport.bfmtv.com/rss/football/`, Foot Mercato `https://www.footmercato.net/flux-rss`.
+  - Angleterre / Europe : BBC Sport `https://feeds.bbci.co.uk/sport/football/rss.xml`, Sky Sports `https://www.skysports.com/rss/12040`, The Guardian `https://www.theguardian.com/football/rss`.
+  - Espagne : Marca `https://e00-marca.uecdn.es/rss/futbol/primera-division.xml`, Mundo Deportivo `https://www.mundodeportivo.com/rss/futbol` (en espagnol : traduire fidèlement en français).
+  - Allemagne : Kicker `https://newsfeed.kicker.de/news/fussball` (en allemand : traduire).
+  - Monde (MLS, Amérique, Asie, sélections) : ESPN `https://www.espn.com/espn/rss/soccer/news`, CBS Sports `https://www.cbssports.com/rss/headlines/soccer/`.
+  - Afrique : BBC Afrique `https://feeds.bbci.co.uk/afrique/rss.xml`, BBC Sport Afrique `https://feeds.bbci.co.uk/sport/africa/rss.xml`.
+  - Ne marchent pas (accès bloqué) : L'Équipe, Foot Africa, Goal, Eurosport, So Foot. Gazzetta : flux périmé, ne pas l'utiliser.
+- VARIÉTÉ : couvrir TOUS les championnats et le foot mondial, pas seulement la Ligue 1. Chaque passage lit au moins 6 flux de régions différentes. Noter `league` (ex. Ligue 1, Premier League, Liga, Serie A, Bundesliga, MLS, Brésil, Afrique, Ligue des champions, sélections, Coupe du monde) dans posted.json pour chaque actu ; pas plus de 2 actus de la même ligue par jour, et ne pas publier deux actus de suite de la même ligue. Les actus des autres pays valent autant que celles de France (un grand résultat, un entraîneur nommé ou limogé, un transfert officiel, un record, une compétition qui se joue).
 - Actu de moins de 4 heures (pubDate), sinon ignorée. Jamais deux fois le même sujet (voir `state/posted.json`, comparer le club + la personne + le type, pas seulement l'URL).
 - Uniquement des faits CONFIRMÉS : limogeage/nomination officielle, transfert officiel, résultat final, déclaration citée entre guillemets. Un départ ou transfert annoncé par un seul média, une « piste », « pourrait », « serait », « selon nos informations » = ignoré, sauf si au moins deux des trois sources le confirment (le titre doit alors dire « selon <média> »).
 - Interdits : décès, blessure grave, procès, scandale, mineurs, politique, drame, violence, propos discriminatoires, rumeur, photo de joueur. Aucune promesse de gain, aucun conseil de pari.
