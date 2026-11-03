@@ -144,3 +144,12 @@ Principe : un seul post par CRÉNEAU de coup d'envoi (18h45, 21h00…), qui couv
 - FIN DE MATCH groupée : ATTENDRE que TOUS les matchs du créneau soient terminés (2 sources sur chacun, y compris après prolongations ou tirs au but : « après prolongations » / « aux tirs au but » à côté du score, jamais le vainqueur des tirs au but sans deux sources) puis poster UN seul post avec tous les scores. Fenêtre : jusqu'à 200 minutes après le coup d'envoi ; au-delà, poster sans le match toujours en cours et le mentionner séparément quand il finit (un seul post complémentaire). Ajouter tous les ids à `fulltime`.
 - Un créneau avec UN SEUL match : même format que le post par match (pas de groupe).
 - Ne jamais refaire un post pour un match déjà couvert : le groupe est identifié par ses ids dans `halftime` / `fulltime` / `prematch`.
+
+### DESCRIPTION COMPLÈTE DES POSTS GROUPÉS (ordre du propriétaire, 3 novembre au soir : « avec une description complète aussi »)
+Chaque post groupé (carrousel ou vidéo, avant-match, mi-temps ou fin de match) a TOUJOURS une description complète, jamais une simple phrase. Structure (Facebook, Instagram, Threads, LinkedIn, Pinterest, YouTube) :
+1. Une accroche avec emoji et la compétition (« 🔥 Soirée de Ligue des champions : 3 matchs à 21 h » / « ⏸️ Mi-temps de la soirée… » / « 🏁 C'est terminé ! Les 3 matchs de Ligue des champions… »).
+2. Une ligne PAR MATCH : « • A – B » (avant-match), « • A 1-0 B » (mi-temps), « • A 0-6 B » (fin) + UNE courte précision sourcée sur le score ou l'enjeu (victoire à domicile, nul, large succès à l'extérieur, enjeu du match tiré de la presse du jour) + le hashtag du match de cette ligne.
+3. Un bilan court calculé à partir des scores seulement (« 11 buts en 3 matchs », « soirée sans but à Bodø ») pour la mi-temps et la fin de match.
+4. Une question qui invite à répondre (« Quel match vous a le plus surpris ? Tu avais estimé combien de buts ? »).
+5. « Compare avec les autres joueurs sur 👉 totagoal.com » puis tous les hashtags (README : tous les hashtags de match d'abord).
+X : même structure mais comprimée pour tenir en 280 caractères (accroche courte, une ligne par match « A 0-6 B », question, « 👉 totagoal.com », hashtags) ; si cela dépasse, raccourcir les noms et supprimer le bilan, JAMAIS les hashtags de match. YouTube : titre ≤ 100 caractères avec #Shorts et description complète + `tags` 3 à 5 mots-clés. Aucun buteur, aucune action sans source, jamais « pari », aucune cote.
