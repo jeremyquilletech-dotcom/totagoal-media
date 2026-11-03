@@ -70,7 +70,6 @@
    "networks": [
     "youtube",
     "instagram",
-    "tiktok",
     "facebook",
     "threads",
     "linkedin",
@@ -91,7 +90,7 @@
   "day": {
    "date": "2026-11-03",
    "all": 1,
-   "tiktok": 1
+   "tiktok": 0
   }
  },
  "prematch": [],
