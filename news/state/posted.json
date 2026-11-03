@@ -163,8 +163,8 @@
   }
  ],
  "counters": {
-  "alt": 11,
-  "music": 11,
+  "alt": 14,
+  "music": 14,
   "day": {
    "date": "2026-11-03",
    "all": 5,
@@ -197,6 +197,59 @@
    "comp": "Ligue des champions",
    "kickoff": "2026-11-03T18:45:00+01:00",
    "hashtag": "#SHASCP",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ]
+  },
+  {
+   "id": 1635746,
+   "home": "Villarreal",
+   "away": "Paris Saint Germain",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T21:00:00+01:00",
+   "hashtag": "#VILPSG",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "story"
+   ]
+  },
+  {
+   "id": 1635640,
+   "home": "Bodø/Glimt",
+   "away": "Lille",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T21:00:00+01:00",
+   "hashtag": "#BODLIL",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "story"
+   ]
+  },
+  {
+   "id": 1635695,
+   "home": "Manchester United",
+   "away": "AS Roma",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T21:00:00+01:00",
+   "hashtag": "#MUNROM",
    "networks": [
     "youtube",
     "instagram",
