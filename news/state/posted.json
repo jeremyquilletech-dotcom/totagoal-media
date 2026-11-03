@@ -261,7 +261,10 @@
    ]
   }
  ],
- "halftime": [],
+ "halftime": [
+  1635669,
+  1635723
+ ],
  "fulltime": [],
  "cancelled": [
   {
