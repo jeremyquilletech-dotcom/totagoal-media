@@ -191,26 +191,15 @@
     "linkedin",
     "pinterest"
    ]
-  },
-  {
-   "id": 1644336,
-   "home": "Anaitasuna",
-   "away": "Alavés",
-   "comp": "Copa del Rey",
-   "kickoff": "2026-11-03T19:00:00+01:00",
-   "hashtag": "#ANAALA",
-   "networks": [
-    "youtube",
-    "instagram",
-    "x",
-    "facebook",
-    "threads",
-    "linkedin",
-    "pinterest",
-    "story"
-   ]
   }
  ],
  "halftime": [],
- "fulltime": []
+ "fulltime": [],
+ "cancelled": [
+  {
+   "id": 1644336,
+   "match": "Anaitasuna-Alaves",
+   "reason": "Copa del Rey reportée par la RFEF (deces de Jesus de Miguel), posts deja publies a 18h00/18h10 Paris le 2026-11-03"
+  }
+ ]
 }
