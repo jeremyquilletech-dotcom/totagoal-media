@@ -160,15 +160,31 @@
     "pinterest",
     "twitter"
    ]
+  },
+  {
+   "key": "heidenheim-schmidt-depart-2027",
+   "title": "Heidenheim : Frank Schmidt quittera le club à la fin de la saison",
+   "league": "Allemagne",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ]
   }
  ],
  "counters": {
-  "alt": 14,
-  "music": 14,
+  "alt": 15,
+  "music": 15,
   "day": {
    "date": "2026-11-03",
-   "all": 5,
-   "tiktok": 2
+   "all": 6,
+   "tiktok": 3
   }
  },
  "prematch": [
