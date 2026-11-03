@@ -90,6 +90,7 @@ const THEMES = {
   other: { name: '', c1: '#7a5cff', c2: '#c3b3ff', glow: 'rgba(122,92,255,.55)', deco: 'bars' },
 };
 const themeOf = (comp) => { const c = String(comp || '').toLowerCase(); return /champions/.test(c) ? THEMES.ldc : /europa/.test(c) ? THEMES.el : /conf/.test(c) ? THEMES.conf : THEMES.other; };
+const musicFor = (p) => { const c = String(p.prematch && p.prematch.comp || '').toLowerCase(); return /champions/.test(c) ? 8 : /europa/.test(c) ? 9 : /conf/.test(c) ? 10 : (Number.isInteger(p.music) ? p.music : 0); };
 const storyHtml = (p) => { const m = p.prematch, t = themeOf(m.comp), name = t.name || String(m.comp || '').toUpperCase();
   const fit = (x) => { const l = String(x).length; return l > 16 ? 70 : l > 11 ? 84 : 98; };
   const deco = t.deco === 'stars' ? Array.from({ length: 7 }, (_, i) => `<polygon transform="translate(${150 + i * 130} 150) scale(${i % 2 ? .6 : .9})" points="0,-24 7,-8 24,-8 10,3 15,20 0,10 -15,20 -10,3 -24,-8 -7,-8" fill="${t.c2}" opacity=".9"/>`).join('') : t.deco === 'dots' ? Array.from({ length: 28 }, (_, i) => `<circle cx="${90 + (i % 14) * 68}" cy="${130 + Math.floor(i / 14) * 50}" r="8" fill="${t.c2}" opacity="${.35 + (i % 3) * .2}"/>`).join('') : Array.from({ length: 9 }, (_, i) => `<rect x="${60 + i * 110}" y="${120 + (i % 2) * 30}" width="70" height="12" rx="6" fill="${t.c2}" opacity=".85"/>`).join('');
@@ -106,6 +107,8 @@ const storyHtml = (p) => { const m = p.prematch, t = themeOf(m.comp), name = t.n
 ${Array.from({ length: 8 }, (_, i) => `<rect x="${120 + i * 105}" y="360" width="52" height="500" fill="#fff" opacity=".05"/>`).join('')}
 <g fill="none" stroke="#fff" stroke-width="4" opacity=".55"><rect x="150" y="390" width="780" height="440"/><line x1="540" y1="390" x2="540" y2="830"/><circle cx="540" cy="610" r="70"/></g>
 <rect x="120" y="360" width="840" height="500" rx="18" fill="#000" opacity=".38"/>
+<g transform="translate(150 372) scale(.2)" opacity=".95"><path d="M0 0 L170 0 L150 190 Q120 280 85 300 Q50 280 20 190Z" fill="${t.c2}"/><path d="M0 24 C-90 24 -90 190 10 190" fill="none" stroke="${t.c2}" stroke-width="26" stroke-linecap="round"/><path d="M170 24 C260 24 260 190 160 190" fill="none" stroke="${t.c2}" stroke-width="26" stroke-linecap="round"/><rect x="62" y="300" width="46" height="70" fill="${t.c2}"/><rect x="10" y="370" width="150" height="34" rx="10" fill="${t.c2}"/></g>
+<text x="940" y="410" text-anchor="end" font-family="Inter Display" font-weight="800" font-size="30" fill="#fff" opacity=".85" letter-spacing="2">totagoal.com</text>
 <rect x="430" y="905" width="220" height="40" fill="#14162a"/><rect x="340" y="940" width="400" height="22" rx="11" fill="#14162a"/>
 <!-- salon -->
 <g transform="translate(0 80)">
@@ -120,16 +123,17 @@ ${Array.from({ length: 8 }, (_, i) => `<rect x="${120 + i * 105}" y="360" width=
 </g>
 </svg>
 <div style="position:absolute;left:0;right:0;top:210px;text-align:center;color:#fff;font:800 40px 'Inter Display';letter-spacing:.24em">${name}</div>
-<div style="position:absolute;left:120px;width:840px;top:432px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.home)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.home}</div>
-<div style="position:absolute;left:120px;width:840px;top:578px;text-align:center;z-index:3;color:${t.c2};font:900 56px/1 'Inter Display';letter-spacing:.2em;text-shadow:0 4px 20px rgba(0,0,0,.8)">VS</div>
-<div style="position:absolute;left:120px;width:840px;top:668px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.away)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.away}</div>
+<div style="position:absolute;left:120px;width:840px;top:470px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.home)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.home}</div>
+<div style="position:absolute;left:120px;width:840px;top:598px;text-align:center;z-index:3;color:${t.c2};font:900 56px/1 'Inter Display';letter-spacing:.2em;text-shadow:0 4px 20px rgba(0,0,0,.8)">VS</div>
+<div style="position:absolute;left:120px;width:840px;top:690px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.away)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.away}</div>
 <div style="position:absolute;left:0;right:0;top:1000px;text-align:center;z-index:3"><span style="display:inline-block;background:${t.c1};color:#fff;font:900 70px/1 'Inter Display';padding:22px 54px;border-radius:24px;letter-spacing:.04em;box-shadow:0 20px 60px ${t.glow}">${m.time}</span></div>
 <div style="position:absolute;left:0;right:0;top:1118px;text-align:center;color:#fff;font:800 50px 'Inter Display';letter-spacing:.06em">${p.hashtag || ''}</div>
 <div style="position:absolute;left:0;right:0;top:1192px;text-align:center;color:rgba(255,255,255,.7);font:600 32px 'Inter Display'">Coup d’envoi dans 1 heure</div>
-<div style="position:absolute;left:90px;right:90px;top:1710px;z-index:3;text-align:center"><div style="display:inline-flex;align-items:center;gap:20px;background:#fff;color:#0a0f33;font:900 40px 'Inter Display';padding:22px 42px;border-radius:99px;box-shadow:0 18px 50px rgba(0,0,0,.5)"><img src="${LOGO}" style="width:62px;height:62px;border-radius:15px"><span>Combien de buts ce soir ? <span style="color:${t.c1}">TotaGoal</span></span></div></div>
+<div style="position:absolute;left:90px;right:90px;top:1690px;z-index:3;text-align:center"><div style="display:inline-flex;align-items:center;gap:20px;background:#fff;color:#0a0f33;font:900 40px 'Inter Display';padding:22px 42px;border-radius:99px;box-shadow:0 18px 50px rgba(0,0,0,.5)"><img src="${LOGO}" style="width:62px;height:62px;border-radius:15px"><span style="text-align:left;line-height:1.1">Combien de buts ce soir ?<br><span style="color:${t.c1};font-size:56px">totagoal.com</span></span></div></div>
 </body></html>`; };
 
 function video(dir, id, mi) {
+  if (typeof mi === 'object' && mi) mi = mi.idx;
   const d = [4.5, 6, 3.5], x = 0.4, fps = 30, total = d[0] + d[1] + d[2] + x;
   const wav = path.join(dir, 'music.wav'); const m = music.render(id, total, mi); fs.writeFileSync(wav, m.wav);
   const inp = ['f1', 'f2', 'f3'].flatMap((f, k) => ['-loop', '1', '-t', String(d[k] + x), '-framerate', String(fps), '-i', path.join(dir, f + '.png')]);
@@ -147,11 +151,11 @@ function video(dir, id, mi) {
     if (only !== 'video') { const pg = await br.newPage({ viewport: { width: W, height: H } });
       for (const [n, html] of [['cover', cover(p, false)], ['essentiel', essentiel(p, false)], ['cta', cta(false, !!p.prematch)]]) { await pg.setContent(html); await pg.waitForTimeout(250); await pg.screenshot({ path: path.join(dir, n + '.jpg'), type: 'jpeg', quality: 92 }); } await pg.close(); }
     if (p.prematch && only !== 'video') { const pg = await br.newPage({ viewport: { width: W, height: VH } }); await pg.setContent(storyHtml(p)); await pg.waitForTimeout(300); await pg.screenshot({ path: path.join(dir, 'story.jpg'), type: 'jpeg', quality: 92 }); await pg.close();
-      const wav = path.join(dir, 'smusic.wav'); fs.writeFileSync(wav, music.render(p.id + 's', 8, Number.isInteger(p.music) ? (p.music + 3) % 8 : undefined).wav);
+      const wav = path.join(dir, 'smusic.wav'); fs.writeFileSync(wav, music.render(p.id + 's', 8, musicFor(p)).wav);
       execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-loop', '1', '-t', '8', '-framerate', '30', '-i', path.join(dir, 'story.jpg'), '-i', wav, '-filter_complex', "[0:v]scale=1188:2112,zoompan=z='1+0.0008*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=240:s=1080x1920:fps=30,format=yuv420p[v]", '-map', '[v]', '-map', '1:a', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', '-t', '8', path.join(dir, 'story.mp4')]); fs.rmSync(wav); }
     if (only !== 'carousel') { const pg = await br.newPage({ viewport: { width: W, height: VH } });
       for (const [n, html] of [['f1', cover(p, true)], ['f2', essentiel(p, true)], ['f3', cta(true, !!p.prematch)]]) { await pg.setContent(html); await pg.waitForTimeout(250); await pg.screenshot({ path: path.join(dir, n + '.png') }); } await pg.close();
-      const m = video(dir, p.id, p.music); console.log(p.id, 'musique', m.name, m.bpm + ' bpm'); }
+      const m = video(dir, p.id, p.prematch ? { idx: musicFor(p) } : p.music); console.log(p.id, 'musique', m.name, m.bpm + ' bpm'); }
     else console.log(p.id, 'ok');
   }
   await br.close();

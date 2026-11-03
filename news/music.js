@@ -12,6 +12,9 @@ const RECIPES = [
   { name: 'victoire', bpm: 104, root: 60, scale: MAJ, prog: [0, 5, 3, 4], arp: [0, 1, 2, 1, 3, 2, 1, 2], drums: 'soft', wave: 'tri' },
   { name: 'tension', bpm: 100, root: 48, scale: MIN, prog: [0, 0, 5, 4], arp: [0, 0, 2, 0, 1, 0, 2, 0], drums: 'soft', wave: 'saw' },
   { name: 'rue', bpm: 92, root: 54, scale: DOR, prog: [0, 6, 3, 4], arp: [2, 0, 1, 0, 2, 0, 1, 0], drums: 'drive', wave: 'sine' },
+  { name: 'soiree-europeenne', bpm: 72, root: 50, scale: MIN, prog: [0, 5, 3, 4], arp: [0, 2, 4, 2, 0, 2, 4, 2], drums: 'timp', wave: 'saw', choir: true },
+  { name: 'europa-nuit', bpm: 122, root: 52, scale: DOR, prog: [0, 6, 3, 4], arp: [0, 2, 1, 2, 0, 3, 1, 2], drums: 'drive', wave: 'saw' },
+  { name: 'conference-lumiere', bpm: 108, root: 55, scale: MAJ, prog: [0, 4, 5, 3], arp: [0, 1, 2, 3, 2, 1, 2, 0], drums: 'soft', wave: 'tri' },
 ];
 const hz = (m) => 440 * Math.pow(2, (m - 69) / 12);
 const hash = (s) => { let h = 2166136261; for (const c of String(s)) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
@@ -29,9 +32,11 @@ function render(id, seconds = 15, index) {
   for (let b = 0; b < bars; b++) {
     const d = r.prog[b % r.prog.length], t0 = b * bar;
     for (const k of [0, 2, 4]) { const f = hz(deg(d + k, 0)); add(t0, bar + .2, f, .05, r.wave, .35, -.3, 0); add(t0, bar + .2, f * 1.004, .04, 'sine', .35, .3, 0); }
+    if (r.choir) for (const k of [0, 2, 4, 7]) { const f = hz(deg(d + k, 1)); for (const dt of [0.996, 1.004]) add(t0, bar + .3, f * dt, .035, 'sine', 1.1, dt < 1 ? -.5 : .5, 0); }
     add(t0, beat * 1.9, hz(deg(d, -2)), .16, 'sine', .02, 0, 1.6); add(t0 + beat * 2, beat * 1.9, hz(deg(d, -2)), .12, 'sine', .02, 0, 1.6);
     for (let s = 0; s < 8; s++) { const a = r.arp[s]; add(t0 + s * beat / 2, beat * .9, hz(deg(d + a * 2, 1)), .07, 'tri', .004, (s % 2 ? .35 : -.35), 5.5); }
-    if (r.drums !== 'none') for (let q = 0; q < 4; q++) {
+    if (r.drums === 'timp') for (const q of [0, 2, 3]) { const i0 = Math.floor((t0 + q * beat) * SR); for (let i = 0; i < SR * .7 && i0 + i < N; i++) { const t = i / SR, f = 38 + 62 * Math.exp(-t * 9); const v = Math.sin(2 * Math.PI * f * t) * Math.exp(-t * 4.2) * (q === 3 ? .3 : .6); L[i0 + i] += v; R[i0 + i] += v; } }
+    if (r.drums !== 'none' && r.drums !== 'timp') for (let q = 0; q < 4; q++) {
       const tk = t0 + q * beat;
       if (r.drums === 'drive' || q % 2 === 0) { const i0 = Math.floor(tk * SR); for (let i = 0; i < SR * .18 && i0 + i < N; i++) { const t = i / SR, f = 45 + 90 * Math.exp(-t * 28); const v = Math.sin(2 * Math.PI * f * t) * Math.exp(-t * 14) * .38; L[i0 + i] += v; R[i0 + i] += v; } }
       const th = tk + beat / 2; const j0 = Math.floor(th * SR); let nz = 0; for (let i = 0; i < SR * .05 && j0 + i < N; i++) { const w = Math.random() * 2 - 1; const hp = w - nz; nz = w * .6 + nz * .4; const v = hp * Math.exp(-i / SR * 70) * (r.drums === 'drive' ? .06 : .035); L[j0 + i] += v; R[j0 + i] += v; }
