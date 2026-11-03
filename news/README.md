@@ -160,3 +160,10 @@ Pour un créneau de 2 ou 3 matchs, il n'y a QU'UNE vidéo canapé, qui montre TO
 
 ## RÈGLE X : HASHTAGS SANS LIMITE (ordre du propriétaire, 3 novembre : « sur X on n'a pas de limite de hashtags, mets-en un max »)
 Sur X, plus de limite de 3 hashtags : mettre le MAXIMUM de hashtags pertinents, seule contrainte = 280 caractères au total (un lien compte pour 23). Ordre : hashtags de match / du sujet en premier, puis la compétition, puis les larges (#foot #football #matchdujour #TotaGoal…). Pour le miroir X : reprendre TOUS les hashtags de l'original (souvent 5 ou 6) et les compléter avec d'autres hashtags réels et courants si la place le permet. Pour les posts groupés : tous les hashtags de match + compétition + larges. Hashtags réels uniquement (jamais d'invention, jamais « pari » / « cote »), sans espace ni tiret. Cette règle REMPLACE tout « X 3 hashtags » ou « exactement 3 hashtags » écrit ailleurs dans ce README ou dans les routines. Les autres réseaux gardent leurs limites (Facebook 3, Instagram 5, etc.).
+
+## X PREMIUM : PLUS DE LIMITE DE CARACTÈRES (ordre du propriétaire, 3 novembre : « j'ai X Premium, donc pas de limite de caractères »)
+Le compte X est Premium : les posts peuvent être LONGS (long format). Plus de limite de 280 caractères sur X. Cette règle REMPLACE toute mention « 280 caractères » du README et des routines (actus, avant-matchs, mi-temps / fins de match, posts groupés, miroir X). Conséquences :
+- Sur X, le même texte COMPLET que Facebook / Instagram / LinkedIn (description complète, une ligne par match pour les posts groupés, bilan, question, « 👉 totagoal.com ») + TOUS les hashtags (RÈGLE X : hashtags sans limite). Ne plus raccourcir ni supprimer le bilan pour X.
+- Rester lisible : visez une longueur raisonnable (quelques lignes, pas un pavé) ; la 1ère ligne doit accrocher car X replie les posts longs.
+- Si Metricool refuse un texte pour sa longueur (erreur renvoyée par createScheduledPost), ne pas le modifier en cachette : raccourcir au strict nécessaire et le signaler au propriétaire une seule fois.
+- Médias inchangés : une vidéo OU 4 images au maximum.
