@@ -81,6 +81,54 @@ const cta = (v, pm) => { const T = v ? VH : H, O = v ? VO : 0, logoTop = v ? 330
 <div style="position:absolute;left:64px;right:64px;top:${tY}px;text-align:center;color:#fff;font:900 ${v ? 76 : 70}px/1.08 'Inter Display';letter-spacing:-.015em">${head}</div>
 <div style="position:absolute;left:100px;right:100px;top:${tY + 210}px;text-align:center;color:rgba(255,255,255,.78);font:500 ${v ? 38 : 34}px/1.4 'Inter Display'">${sub}</div>
 <div style="position:absolute;left:50%;transform:translateX(-50%);top:${tY + 400}px;background:#5ef0b0;color:#04170f;font:800 40px 'Inter Display';padding:24px 56px;border-radius:99px">${btn}</div></body></html>`; };
+
+// Story d'avant-match 9:16 : salon, un fan sur son canapé devant la télé, couleurs propres à la compétition (pas de logo officiel).
+const THEMES = {
+  ldc: { name: 'LIGUE DES CHAMPIONS', c1: '#1d4bff', c2: '#7fb0ff', glow: 'rgba(60,120,255,.55)', deco: 'stars' },
+  el: { name: 'LIGUE EUROPA', c1: '#ff7a00', c2: '#ffc27a', glow: 'rgba(255,122,0,.55)', deco: 'bars' },
+  conf: { name: 'LIGUE CONFÉRENCE', c1: '#17b978', c2: '#8af0c3', glow: 'rgba(23,185,120,.55)', deco: 'dots' },
+  other: { name: '', c1: '#7a5cff', c2: '#c3b3ff', glow: 'rgba(122,92,255,.55)', deco: 'bars' },
+};
+const themeOf = (comp) => { const c = String(comp || '').toLowerCase(); return /champions/.test(c) ? THEMES.ldc : /europa/.test(c) ? THEMES.el : /conf/.test(c) ? THEMES.conf : THEMES.other; };
+const storyHtml = (p) => { const m = p.prematch, t = themeOf(m.comp), name = t.name || String(m.comp || '').toUpperCase();
+  const fit = (x) => { const l = String(x).length; return l > 16 ? 70 : l > 11 ? 84 : 98; };
+  const deco = t.deco === 'stars' ? Array.from({ length: 7 }, (_, i) => `<polygon transform="translate(${150 + i * 130} 150) scale(${i % 2 ? .6 : .9})" points="0,-24 7,-8 24,-8 10,3 15,20 0,10 -15,20 -10,3 -24,-8 -7,-8" fill="${t.c2}" opacity=".9"/>`).join('') : t.deco === 'dots' ? Array.from({ length: 28 }, (_, i) => `<circle cx="${90 + (i % 14) * 68}" cy="${130 + Math.floor(i / 14) * 50}" r="8" fill="${t.c2}" opacity="${.35 + (i % 3) * .2}"/>`).join('') : Array.from({ length: 9 }, (_, i) => `<rect x="${60 + i * 110}" y="${120 + (i % 2) * 30}" width="70" height="12" rx="6" fill="${t.c2}" opacity=".85"/>`).join('');
+  return `<html><body style="margin:0;width:1080px;height:1920px;position:relative;overflow:hidden;background:#05060f;font-family:'Inter Display'">
+<div style="position:absolute;inset:0;background:radial-gradient(90% 55% at 50% 38%,${t.glow} 0%,rgba(5,6,15,0) 70%),linear-gradient(180deg,#0b0e24 0%,#070812 60%,#04050c 100%)"></div>
+<svg style="position:absolute;left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs><linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a8f57"/><stop offset="1" stop-color="#0b5a36"/></linearGradient>
+<radialGradient id="tvg" cx=".5" cy=".4"><stop offset="0" stop-color="${t.c2}" stop-opacity=".55"/><stop offset="1" stop-color="${t.c2}" stop-opacity="0"/></radialGradient>
+<filter id="bl"><feGaussianBlur stdDeviation="26"/></filter><filter id="sd"><feDropShadow dx="0" dy="30" stdDeviation="26" flood-color="#000" flood-opacity=".65"/></filter></defs>
+<g>${deco}</g>
+<ellipse cx="540" cy="760" rx="520" ry="420" fill="url(#tvg)" filter="url(#bl)"/>
+<g filter="url(#sd)"><rect x="90" y="330" width="900" height="560" rx="34" fill="#0b0c14" stroke="#262a45" stroke-width="10"/></g>
+<rect x="120" y="360" width="840" height="500" rx="18" fill="url(#pitch)"/>
+${Array.from({ length: 8 }, (_, i) => `<rect x="${120 + i * 105}" y="360" width="52" height="500" fill="#fff" opacity=".05"/>`).join('')}
+<g fill="none" stroke="#fff" stroke-width="4" opacity=".55"><rect x="150" y="390" width="780" height="440"/><line x1="540" y1="390" x2="540" y2="830"/><circle cx="540" cy="610" r="70"/></g>
+<rect x="120" y="360" width="840" height="500" rx="18" fill="#000" opacity=".38"/>
+<rect x="430" y="905" width="220" height="40" fill="#14162a"/><rect x="340" y="940" width="400" height="22" rx="11" fill="#14162a"/>
+<!-- salon -->
+<g transform="translate(0 80)">
+<g filter="url(#sd)"><rect x="110" y="1330" width="860" height="330" rx="70" fill="#1d1a3a"/><rect x="60" y="1420" width="150" height="250" rx="60" fill="#262248"/><rect x="870" y="1420" width="150" height="250" rx="60" fill="#262248"/></g>
+<rect x="110" y="1330" width="860" height="14" rx="7" fill="${t.c2}" opacity=".35"/>
+<!-- fan de dos -->
+<g filter="url(#sd)"><path d="M350 1580 C350 1450 420 1400 540 1400 C660 1400 730 1450 730 1580 Z" fill="${t.c1}"/><rect x="500" y="1362" width="80" height="62" rx="28" fill="#c98f6b"/><ellipse cx="468" cy="1316" rx="12" ry="22" fill="#c98f6b"/><ellipse cx="612" cy="1316" rx="12" ry="22" fill="#c98f6b"/><circle cx="540" cy="1306" r="78" fill="#1b1208"/></g>
+<path d="M366 1566 C366 1456 430 1412 540 1412 C650 1412 714 1456 714 1566" fill="none" stroke="${t.c2}" stroke-width="6" opacity=".7" stroke-linecap="round"/>
+<path d="M476 1272 C490 1240 520 1228 540 1228 C566 1228 592 1242 604 1270" fill="none" stroke="${t.c2}" stroke-width="6" opacity=".6" stroke-linecap="round"/>
+<g filter="url(#sd)"><rect x="190" y="1580" width="700" height="110" rx="40" fill="#2a2552"/></g>
+<g><rect x="790" y="1500" width="120" height="70" rx="12" fill="#e9eaf5"/><ellipse cx="850" cy="1500" rx="60" ry="14" fill="#fff"/><g fill="#ffd84a"><circle cx="820" cy="1488" r="12"/><circle cx="856" cy="1480" r="12"/><circle cx="886" cy="1490" r="11"/></g></g>
+</g>
+</svg>
+<div style="position:absolute;left:0;right:0;top:210px;text-align:center;color:#fff;font:800 40px 'Inter Display';letter-spacing:.24em">${name}</div>
+<div style="position:absolute;left:120px;width:840px;top:432px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.home)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.home}</div>
+<div style="position:absolute;left:120px;width:840px;top:578px;text-align:center;z-index:3;color:${t.c2};font:900 56px/1 'Inter Display';letter-spacing:.2em;text-shadow:0 4px 20px rgba(0,0,0,.8)">VS</div>
+<div style="position:absolute;left:120px;width:840px;top:668px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.away)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.away}</div>
+<div style="position:absolute;left:0;right:0;top:1000px;text-align:center;z-index:3"><span style="display:inline-block;background:${t.c1};color:#fff;font:900 70px/1 'Inter Display';padding:22px 54px;border-radius:24px;letter-spacing:.04em;box-shadow:0 20px 60px ${t.glow}">${m.time}</span></div>
+<div style="position:absolute;left:0;right:0;top:1118px;text-align:center;color:#fff;font:800 50px 'Inter Display';letter-spacing:.06em">${p.hashtag || ''}</div>
+<div style="position:absolute;left:0;right:0;top:1192px;text-align:center;color:rgba(255,255,255,.7);font:600 32px 'Inter Display'">Coup d’envoi dans 1 heure</div>
+<div style="position:absolute;left:90px;right:90px;top:1710px;z-index:3;text-align:center"><div style="display:inline-flex;align-items:center;gap:20px;background:#fff;color:#0a0f33;font:900 40px 'Inter Display';padding:22px 42px;border-radius:99px;box-shadow:0 18px 50px rgba(0,0,0,.5)"><img src="${LOGO}" style="width:62px;height:62px;border-radius:15px"><span>Combien de buts ce soir ? <span style="color:${t.c1}">TotaGoal</span></span></div></div>
+</body></html>`; };
+
 function video(dir, id, mi) {
   const d = [4.5, 6, 3.5], x = 0.4, fps = 30, total = d[0] + d[1] + d[2] + x;
   const wav = path.join(dir, 'music.wav'); const m = music.render(id, total, mi); fs.writeFileSync(wav, m.wav);
@@ -98,6 +146,9 @@ function video(dir, id, mi) {
     const dir = path.join(out, p.id); fs.mkdirSync(dir, { recursive: true });
     if (only !== 'video') { const pg = await br.newPage({ viewport: { width: W, height: H } });
       for (const [n, html] of [['cover', cover(p, false)], ['essentiel', essentiel(p, false)], ['cta', cta(false, !!p.prematch)]]) { await pg.setContent(html); await pg.waitForTimeout(250); await pg.screenshot({ path: path.join(dir, n + '.jpg'), type: 'jpeg', quality: 92 }); } await pg.close(); }
+    if (p.prematch && only !== 'video') { const pg = await br.newPage({ viewport: { width: W, height: VH } }); await pg.setContent(storyHtml(p)); await pg.waitForTimeout(300); await pg.screenshot({ path: path.join(dir, 'story.jpg'), type: 'jpeg', quality: 92 }); await pg.close();
+      const wav = path.join(dir, 'smusic.wav'); fs.writeFileSync(wav, music.render(p.id + 's', 8, Number.isInteger(p.music) ? (p.music + 3) % 8 : undefined).wav);
+      execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-loop', '1', '-t', '8', '-framerate', '30', '-i', path.join(dir, 'story.jpg'), '-i', wav, '-filter_complex', "[0:v]scale=1188:2112,zoompan=z='1+0.0008*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=240:s=1080x1920:fps=30,format=yuv420p[v]", '-map', '[v]', '-map', '1:a', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', '-t', '8', path.join(dir, 'story.mp4')]); fs.rmSync(wav); }
     if (only !== 'carousel') { const pg = await br.newPage({ viewport: { width: W, height: VH } });
       for (const [n, html] of [['f1', cover(p, true)], ['f2', essentiel(p, true)], ['f3', cta(true, !!p.prematch)]]) { await pg.setContent(html); await pg.waitForTimeout(250); await pg.screenshot({ path: path.join(dir, n + '.png') }); } await pg.close();
       const m = video(dir, p.id, p.music); console.log(p.id, 'musique', m.name, m.bpm + ' bpm'); }
