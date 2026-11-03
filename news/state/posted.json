@@ -61,15 +61,37 @@
     "#Bundesliga",
     "#football"
    ]
+  },
+  {
+   "key": "westham-nuno-limogeage-coach",
+   "title": "Championship : West Ham limoge Nuno Espírito Santo, 8e du classement",
+   "league": "Championship",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#WestHam",
+    "#Nuno",
+    "#Championship",
+    "#limogeage"
+   ]
   }
  ],
  "counters": {
-  "alt": 3,
-  "music": 3,
+  "alt": 4,
+  "music": 4,
   "day": {
-   "date": "2026-11-02",
-   "all": 3,
-   "tiktok": 2
+   "date": "2026-11-03",
+   "all": 1,
+   "tiktok": 1
   }
  },
  "prematch": [],
