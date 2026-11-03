@@ -92,6 +92,10 @@ const THEMES = {
 const themeOf = (comp) => { const c = String(comp || '').toLowerCase(); return /champions/.test(c) ? THEMES.ldc : /europa/.test(c) ? THEMES.el : /conf/.test(c) ? THEMES.conf : THEMES.other; };
 const musicFor = (p) => { const c = String(p.prematch && p.prematch.comp || '').toLowerCase(); return /champions/.test(c) ? 8 : /europa/.test(c) ? 9 : /conf/.test(c) ? 10 : (Number.isInteger(p.music) ? p.music : 0); };
 const storyHtml = (p) => { const m = p.prematch, t = themeOf(m.comp), name = t.name || String(m.comp || '').toUpperCase();
+  const fit2 = (x) => { const l = String(x).length; return l > 16 ? 44 : l > 11 ? 54 : 64; };
+  const nm = (x, top) => `<div style="position:absolute;left:120px;width:840px;top:${top}px;text-align:center;z-index:3;color:#fff;font:900 ${fit2(x)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${x}</div>`;
+  const vs = (top) => `<div style="position:absolute;left:120px;width:840px;top:${top}px;text-align:center;z-index:3;color:${t.c2};font:900 34px/1 'Inter Display';letter-spacing:.2em">VS</div>`;
+  const two = (a, b) => nm(a.home, 408) + vs(484) + nm(a.away, 532) + `<div style="position:absolute;left:230px;width:620px;top:620px;height:4px;border-radius:2px;background:${t.c2};opacity:.6;z-index:3"></div>` + nm(b.home, 668) + vs(744) + nm(b.away, 792);
   const fit = (x) => { const l = String(x).length; return l > 16 ? 70 : l > 11 ? 84 : 98; };
   const deco = t.deco === 'stars' ? Array.from({ length: 7 }, (_, i) => `<polygon transform="translate(${150 + i * 130} 150) scale(${i % 2 ? .6 : .9})" points="0,-24 7,-8 24,-8 10,3 15,20 0,10 -15,20 -10,3 -24,-8 -7,-8" fill="${t.c2}" opacity=".9"/>`).join('') : t.deco === 'dots' ? Array.from({ length: 28 }, (_, i) => `<circle cx="${90 + (i % 14) * 68}" cy="${130 + Math.floor(i / 14) * 50}" r="8" fill="${t.c2}" opacity="${.35 + (i % 3) * .2}"/>`).join('') : Array.from({ length: 9 }, (_, i) => `<rect x="${60 + i * 110}" y="${120 + (i % 2) * 30}" width="70" height="12" rx="6" fill="${t.c2}" opacity=".85"/>`).join('');
   return `<html><body style="margin:0;width:1080px;height:1920px;position:relative;overflow:hidden;background:#05060f;font-family:'Inter Display'">
@@ -123,9 +127,9 @@ ${Array.from({ length: 8 }, (_, i) => `<rect x="${120 + i * 105}" y="360" width=
 </g>
 </svg>
 <div style="position:absolute;left:0;right:0;top:210px;text-align:center;color:#fff;font:800 40px 'Inter Display';letter-spacing:.24em">${name}</div>
-<div style="position:absolute;left:120px;width:840px;top:470px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.home)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.home}</div>
+${p.prematch2 ? two(m, p.prematch2) : `<div style="position:absolute;left:120px;width:840px;top:470px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.home)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.home}</div>
 <div style="position:absolute;left:120px;width:840px;top:598px;text-align:center;z-index:3;color:${t.c2};font:900 56px/1 'Inter Display';letter-spacing:.2em;text-shadow:0 4px 20px rgba(0,0,0,.8)">VS</div>
-<div style="position:absolute;left:120px;width:840px;top:690px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.away)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.away}</div>
+<div style="position:absolute;left:120px;width:840px;top:690px;text-align:center;z-index:3;color:#fff;font:900 ${fit(m.away)}px/1 'Inter Display';letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.8)">${m.away}</div>`}
 <div style="position:absolute;left:0;right:0;top:1000px;text-align:center;z-index:3"><span style="display:inline-block;background:${t.c1};color:#fff;font:900 70px/1 'Inter Display';padding:22px 54px;border-radius:24px;letter-spacing:.04em;box-shadow:0 20px 60px ${t.glow}">${m.time}</span></div>
 <div style="position:absolute;left:0;right:0;top:1118px;text-align:center;color:#fff;font:800 50px 'Inter Display';letter-spacing:.06em">${p.hashtag || ''}</div>
 <div style="position:absolute;left:0;right:0;top:1192px;text-align:center;color:rgba(255,255,255,.7);font:600 32px 'Inter Display'">Coup d’envoi dans 1 heure</div>
