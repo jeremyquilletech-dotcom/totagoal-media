@@ -221,15 +221,61 @@
     "#mercato",
     "#entraineur"
    ]
+  },
+  {
+   "key": "ol-fonseca-depart-sporting",
+   "title": "Ligue 1 : l'OL officialise le départ de Paulo Fonseca vers le Sporting",
+   "date": "2026-11-04",
+   "league": "Ligue 1",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#OL",
+    "#Fonseca",
+    "#Ligue1",
+    "#entraineur",
+    "#SportingCP"
+   ]
+  },
+  {
+   "key": "westham-parker-nomination",
+   "title": "Angleterre : West Ham nomme Scott Parker à la place de Nuno",
+   "date": "2026-11-04",
+   "league": "Angleterre",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#WestHam",
+    "#ScottParker",
+    "#Championship",
+    "#entraineur",
+    "#football"
+   ]
   }
  ],
  "counters": {
-  "alt": 17,
-  "music": 17,
+  "alt": 19,
+  "music": 19,
   "day": {
    "date": "2026-11-04",
-   "all": 2,
-   "tiktok": 1
+   "all": 4,
+   "tiktok": 3
   }
  },
  "prematch": [
