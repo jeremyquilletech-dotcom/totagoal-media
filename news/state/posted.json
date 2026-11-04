@@ -198,15 +198,38 @@
     "#foot",
     "#actufoot"
    ]
+  },
+  {
+   "key": "fenerbahce-belozoglu-nomination",
+   "title": "Turquie : Fenerbahçe officialise Emre Belözoğlu comme nouvel entraîneur",
+   "date": "2026-11-04",
+   "league": "Turquie",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Fenerbahce",
+    "#Belozoglu",
+    "#SuperLig",
+    "#mercato",
+    "#entraineur"
+   ]
   }
  ],
  "counters": {
-  "alt": 16,
-  "music": 16,
+  "alt": 17,
+  "music": 17,
   "day": {
    "date": "2026-11-04",
-   "all": 1,
-   "tiktok": 0
+   "all": 2,
+   "tiktok": 1
   }
  },
  "prematch": [
