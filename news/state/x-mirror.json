@@ -1473,8 +1473,40 @@
     "2027-04-01-18:00-coupe-de-france-amateurs": {
       "date": "2027-04-01T18:00",
       "id": 416917744
+    },
+    "2027-04-02-11:05-petit-rappel-places": {
+      "date": "2027-04-02T11:05",
+      "id": 416945045
+    },
+    "2027-04-02-12:30-points-man-city": {
+      "date": "2027-04-02T12:30",
+      "id": 416945071
+    },
+    "2027-04-02-13:40-bonus-boosts": {
+      "date": "2027-04-02T13:40",
+      "id": 416945094
+    },
+    "2027-04-02-16:55-quiz-vieille-dame": {
+      "date": "2027-04-02T16:55",
+      "id": 416945135
+    },
+    "2027-04-03-08:45-quiz-barcelone": {
+      "date": "2027-04-03T08:45",
+      "id": 416945181
+    },
+    "2027-04-03-12:30-3-finales-euro-80-90": {
+      "date": "2027-04-03T12:30",
+      "id": 416945215
+    },
+    "2027-04-03-16:30-buts-serie-a": {
+      "date": "2027-04-03T16:30",
+      "id": 416945238
+    },
+    "2027-04-03-19:00-soirees-europeennes": {
+      "date": "2027-04-03T19:00",
+      "id": 416945270
     }
   },
-  "last_day": "2027-04-01",
+  "last_day": "2027-04-03",
   "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
