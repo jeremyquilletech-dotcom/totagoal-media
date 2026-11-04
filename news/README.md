@@ -174,3 +174,13 @@ Le 4 novembre à 08:55 un Reel Instagram est quand même parti en ERROR « User 
 - Plafond : 8 publications Instagram par jour (copies du planning comprises). Priorité : avant-matchs / stories d'avant-match, actus, puis le reste.
 - PAUSE : aucune nouvelle publication Instagram ne doit être programmée avant 12:00 (Paris) le 4 novembre. Le Reel Luis Enrique en erreur n'est PAS recréé (Metricool le relance seul). Facebook, X, YouTube, Threads, LinkedIn, Pinterest continuent normalement.
 - Si une nouvelle erreur « too many actions » apparaît : pause Instagram de 3 heures de plus, sans recréer le post.
+
+
+## RÈGLE : PLUS DE PLAFOND DE 3 MATCHS PAR CRÉNEAU (ordre du propriétaire, 4 novembre : « s'il y a plus de 3 matchs, tu affiches tous les matchs et tous les hashtags »)
+Cette règle REMPLACE toute mention « 3 au plus par créneau », « jusqu'à 3 matchs », « 4 lignes au plus » ou « ne mettre que les 3 plus importants » de ce README et des routines (avant-matchs, mi-temps, fins de match).
+- Un créneau de coup d'envoi regroupe TOUS ses matchs (7 matchs à 21 h = 7 matchs dans le post), sans en écarter. Le plafond de 6 avant-matchs par jour ne s'applique plus aux créneaux de Ligue des champions / Europa League / Conférence : tous les matchs du créneau sont couverts. Les cartes individuelles ne sont plus nécessaires pour les créneaux de plus de 3 matchs : la carte de groupe suffit.
+- Carte de groupe (`bg` "groupe") : `groupe.rows` accepte jusqu'à 12 lignes (une par match, police réduite automatiquement). Titre : `[Ce soir 21 h] 7 matchs de Ligue des champions` ; `deck` = TOUS les hashtags de match.
+- Vidéo canapé groupée : `prematch`, `prematch2`, `prematch3` puis `prematchMore` = liste JSON des matchs suivants (`[{home, away, comp, time}, ...]`) ; gen.js affiche tous les matchs sur la télé (liste automatique au-delà de 3) et réduit la taille des hashtags pour les afficher tous. `hashtag` = tous les hashtags séparés par « · ».
+- Texte des posts : accroche (« 🔥 Soirée de Ligue des champions : 7 matchs à 21 h »), UNE LIGNE PAR MATCH avec son hashtag, question, « 👉 totagoal.com », puis TOUS les hashtags de match + compétition (Instagram, Facebook, X, etc.). Sur X : tous les hashtags sans limite.
+- Carrousel : media = [cover.jpg de groupe (qui liste tous les matchs), puis jusqu'à 3 images supplémentaires] — la limite de 4 images de X/Instagram ne s'applique qu'aux images, pas aux matchs listés.
+- Mi-temps et fin de match : même principe (tous les matchs du créneau dans la carte de groupe, tous les hashtags).
