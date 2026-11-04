@@ -1,608 +1,615 @@
 {
-  "stories": [
-    {
-      "key": "ol-fonseca-depart-coach",
-      "title": "OL : Paulo Fonseca annonce son départ à son groupe, direction le Sporting",
-      "date": "2026-11-02",
-      "networks": [
-        "youtube",
-        "instagram",
-        "tiktok",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#OL",
-        "#Fonseca",
-        "#Ligue1",
-        "#mercato"
-      ],
-      "league": "Ligue 1"
-    },
-    {
-      "key": "udinese-runjaic-limogeage-coach",
-      "title": "Serie A : l'Udinese démet Kosta Runjaic de ses fonctions",
-      "date": "2026-11-02",
-      "networks": [
-        "youtube",
-        "instagram",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#Udinese",
-        "#SerieA",
-        "#Runjaic",
-        "#entraineur"
-      ],
-      "league": "Serie A"
-    },
-    {
-      "key": "kane-bayern-prolongation-declaration",
-      "title": "Bayern : Harry Kane « extrêmement proche » d'une prolongation",
-      "league": "Bundesliga",
-      "date": "2026-11-02",
-      "networks": [
-        "youtube",
-        "instagram",
-        "tiktok",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#Kane",
-        "#Bayern",
-        "#Bundesliga",
-        "#football"
-      ]
-    },
-    {
-      "key": "westham-nuno-limogeage-coach",
-      "title": "Championship : West Ham limoge Nuno Espírito Santo, 8e du classement",
-      "league": "Championship",
-      "date": "2026-11-03",
-      "networks": [
-        "youtube",
-        "instagram",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "twitter"
-      ],
-      "hashtags": [
-        "#WestHam",
-        "#Nuno",
-        "#Championship",
-        "#limogeage"
-      ]
-    },
-    {
-      "key": "sunderland-brobbey-prolongation",
-      "title": "Premier League : Sunderland prolonge Brian Brobbey jusqu'en 2031",
-      "league": "Premier League",
-      "date": "2026-11-03",
-      "networks": [
-        "youtube",
-        "instagram",
-        "tiktok",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "twitter"
-      ],
-      "hashtags": [
-        "#Sunderland",
-        "#Brobbey",
-        "#PremierLeague",
-        "#prolongation"
-      ]
-    },
-    {
-      "key": "ldn-feminine-tirage-bleues",
-      "title": "Ligue des nations féminine : les Bleues dans le groupe A2 avec l'Angleterre",
-      "league": "Sélections",
-      "date": "2026-11-03",
-      "networks": [
-        "youtube",
-        "instagram",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#Bleues",
-        "#LigueDesNations",
-        "#football",
-        "#FranceFeminine"
-      ]
-    },
-    {
-      "key": "ligue1-appel-offres-droits-tv",
-      "title": "Ligue 1 : la LFP lance l'appel d'offres des droits TV 2027-2032",
-      "league": "Ligue 1",
-      "date": "2026-11-03",
-      "networks": [
-        "youtube",
-        "instagram",
-        "tiktok",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#Ligue1",
-        "#LFP",
-        "#droitsTV",
-        "#foot"
-      ]
-    },
-    {
-      "key": "argentine-liste-sans-messi",
-      "title": "Argentine : première liste sans Messi pour l'Uruguay et le Costa Rica",
-      "league": "Sélections",
-      "date": "2026-11-03",
-      "networks": [
-        "youtube",
-        "instagram",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "twitter"
-      ]
-    },
-    {
-      "key": "heidenheim-schmidt-depart-2027",
-      "title": "Heidenheim : Frank Schmidt quittera le club à la fin de la saison",
-      "league": "Allemagne",
-      "date": "2026-11-03",
-      "networks": [
-        "youtube",
-        "instagram",
-        "tiktok",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "twitter"
-      ]
-    },
-    {
-      "key": "psg-luisenrique-trois-changements",
-      "title": "PSG : Luis Enrique, « une plaisanterie » après les trois changements à Villarreal",
-      "date": "2026-11-04",
-      "league": "Ligue des champions",
-      "networks": [
-        "instagram",
-        "youtube",
-        "facebook",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#PSG",
-        "#LuisEnrique",
-        "#LigueDesChampions",
-        "#foot",
-        "#actufoot"
-      ]
-    },
-    {
-      "key": "fenerbahce-belozoglu-nomination",
-      "title": "Turquie : Fenerbahçe officialise Emre Belözoğlu comme nouvel entraîneur",
-      "date": "2026-11-04",
-      "league": "Turquie",
-      "networks": [
-        "instagram",
-        "youtube",
-        "facebook",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest",
-        "tiktok"
-      ],
-      "hashtags": [
-        "#Fenerbahce",
-        "#Belozoglu",
-        "#SuperLig",
-        "#mercato",
-        "#entraineur"
-      ]
-    },
-    {
-      "key": "ol-fonseca-depart-sporting",
-      "title": "Ligue 1 : l'OL officialise le départ de Paulo Fonseca vers le Sporting",
-      "date": "2026-11-04",
-      "league": "Ligue 1",
-      "networks": [
-        "instagram",
-        "youtube",
-        "facebook",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest",
-        "tiktok"
-      ],
-      "hashtags": [
-        "#OL",
-        "#Fonseca",
-        "#Ligue1",
-        "#entraineur",
-        "#SportingCP"
-      ]
-    },
-    {
-      "key": "westham-parker-nomination",
-      "title": "Angleterre : West Ham nomme Scott Parker à la place de Nuno",
-      "date": "2026-11-04",
-      "league": "Angleterre",
-      "networks": [
-        "instagram",
-        "youtube",
-        "facebook",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest",
-        "tiktok"
-      ],
-      "hashtags": [
-        "#WestHam",
-        "#ScottParker",
-        "#Championship",
-        "#entraineur",
-        "#football"
-      ]
-    },
-    {
-      "key": "lausanne-elsner-separation",
-      "title": "Suisse : Lausanne-Sport se sépare de Luka Elsner, dernier de Super League",
-      "date": "2026-11-04",
-      "league": "Suisse",
-      "networks": [
-        "facebook",
-        "youtube",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#Lausanne",
-        "#LukaElsner",
-        "#SuperLeague",
-        "#entraineur",
-        "#football"
-      ]
-    },
-    {
-      "key": "caf-ballon-or-africain-nommes",
-      "title": "CAF Awards 2026 : les dix nommés au Ballon d'Or africain",
-      "date": "2026-11-04",
-      "league": "Afrique",
-      "networks": [
-        "facebook",
-        "youtube",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ],
-      "hashtags": [
-        "#CAFAwards",
-        "#BallonDorAfricain",
-        "#Hakimi",
-        "#football",
-        "#actufoot"
-      ]
-    }
-  ],
-  "counters": {
-    "alt": 26,
-    "music": 24,
-    "day": {
-      "date": "2026-11-04",
-      "all": 6,
-      "tiktok": 3
-    }
+ "stories": [
+  {
+   "key": "ol-fonseca-depart-coach",
+   "title": "OL : Paulo Fonseca annonce son départ à son groupe, direction le Sporting",
+   "date": "2026-11-02",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#OL",
+    "#Fonseca",
+    "#Ligue1",
+    "#mercato"
+   ],
+   "league": "Ligue 1"
   },
-  "prematch": [
-    {
-      "id": 1635669,
-      "home": "Galatasaray",
-      "away": "VfB Stuttgart",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-03T18:45:00+01:00",
-      "hashtag": "#GALSTU",
-      "networks": [
-        "youtube",
-        "instagram",
-        "x",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "story"
-      ]
-    },
-    {
-      "id": 1635723,
-      "home": "Shakhtar Donetsk",
-      "away": "Sporting CP",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-03T18:45:00+01:00",
-      "hashtag": "#SHASCP",
-      "networks": [
-        "youtube",
-        "instagram",
-        "x",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ]
-    },
-    {
-      "id": 1635746,
-      "home": "Villarreal",
-      "away": "Paris Saint Germain",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-03T21:00:00+01:00",
-      "hashtag": "#VILPSG",
-      "networks": [
-        "youtube",
-        "instagram",
-        "x",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "story"
-      ]
-    },
-    {
-      "id": 1635640,
-      "home": "Bodø/Glimt",
-      "away": "Lille",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-03T21:00:00+01:00",
-      "hashtag": "#BODLIL",
-      "networks": [
-        "youtube",
-        "instagram",
-        "x",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest",
-        "story"
-      ]
-    },
-    {
-      "id": 1635695,
-      "home": "Manchester United",
-      "away": "AS Roma",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-03T21:00:00+01:00",
-      "hashtag": "#MUNROM",
-      "networks": [
-        "youtube",
-        "instagram",
-        "x",
-        "facebook",
-        "threads",
-        "linkedin",
-        "pinterest"
-      ]
-    },
-    {
-      "id": 1636324,
-      "home": "Rennes",
-      "away": "Olympiakos Piraeus",
-      "comp": "Ligue Europa",
-      "kickoff": "2026-11-04T16:30:00+01:00",
-      "hashtag": "#SRFCOLY",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635658",
-      "home": "Fenerbahçe",
-      "away": "Liverpool",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T18:45:00+01:00",
-      "hashtag": "#FENLIV",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635606",
-      "home": "AEK Athens FC",
-      "away": "Real Madrid",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T18:45:00+01:00",
-      "hashtag": "#AEKRMA",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635681",
-      "home": "Lens",
-      "away": "Como",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#RCLCOM",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635651",
-      "home": "Borussia Dortmund",
-      "away": "Real Betis",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#BVBBET",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635710",
-      "home": "RB Leipzig",
-      "away": "Manchester City",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#RBLMCI",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635707",
-      "home": "PSV Eindhoven",
-      "away": "Club Brugge KV",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#PSVBRU",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635656",
-      "home": "FC Porto",
-      "away": "Napoli",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#FCPNAP",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635726",
-      "home": "Slavia Praha",
-      "away": "Arsenal",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#SLAARS",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    },
-    {
-      "id": "1635745",
-      "home": "Viking",
-      "away": "Sabah FA",
-      "comp": "Ligue des champions",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "hashtag": "#VIKSAB",
-      "networks": [
-        "facebook",
-        "instagram",
-        "youtube",
-        "threads",
-        "linkedin",
-        "x",
-        "pinterest"
-      ]
-    }
-  ],
-  "halftime": [
-    1635669,
-    1635723,
-    1635746,
-    1635640,
-    1635695,
-    "1636324",
-    "1635606",
-    "1635658"
-  ],
-  "fulltime": [
-    1635669,
-    1635723,
-    1635746,
-    1635640,
-    1635695,
-    "1636324",
-    "1635606",
-    "1635658"
-  ],
-  "cancelled": [
-    {
-      "id": 1644336,
-      "match": "Anaitasuna-Alaves",
-      "reason": "Copa del Rey reportée par la RFEF (deces de Jesus de Miguel), posts deja publies a 18h00/18h10 Paris le 2026-11-03"
-    }
-  ]
+  {
+   "key": "udinese-runjaic-limogeage-coach",
+   "title": "Serie A : l'Udinese démet Kosta Runjaic de ses fonctions",
+   "date": "2026-11-02",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Udinese",
+    "#SerieA",
+    "#Runjaic",
+    "#entraineur"
+   ],
+   "league": "Serie A"
+  },
+  {
+   "key": "kane-bayern-prolongation-declaration",
+   "title": "Bayern : Harry Kane « extrêmement proche » d'une prolongation",
+   "league": "Bundesliga",
+   "date": "2026-11-02",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Kane",
+    "#Bayern",
+    "#Bundesliga",
+    "#football"
+   ]
+  },
+  {
+   "key": "westham-nuno-limogeage-coach",
+   "title": "Championship : West Ham limoge Nuno Espírito Santo, 8e du classement",
+   "league": "Championship",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#WestHam",
+    "#Nuno",
+    "#Championship",
+    "#limogeage"
+   ]
+  },
+  {
+   "key": "sunderland-brobbey-prolongation",
+   "title": "Premier League : Sunderland prolonge Brian Brobbey jusqu'en 2031",
+   "league": "Premier League",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Sunderland",
+    "#Brobbey",
+    "#PremierLeague",
+    "#prolongation"
+   ]
+  },
+  {
+   "key": "ldn-feminine-tirage-bleues",
+   "title": "Ligue des nations féminine : les Bleues dans le groupe A2 avec l'Angleterre",
+   "league": "Sélections",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Bleues",
+    "#LigueDesNations",
+    "#football",
+    "#FranceFeminine"
+   ]
+  },
+  {
+   "key": "ligue1-appel-offres-droits-tv",
+   "title": "Ligue 1 : la LFP lance l'appel d'offres des droits TV 2027-2032",
+   "league": "Ligue 1",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Ligue1",
+    "#LFP",
+    "#droitsTV",
+    "#foot"
+   ]
+  },
+  {
+   "key": "argentine-liste-sans-messi",
+   "title": "Argentine : première liste sans Messi pour l'Uruguay et le Costa Rica",
+   "league": "Sélections",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ]
+  },
+  {
+   "key": "heidenheim-schmidt-depart-2027",
+   "title": "Heidenheim : Frank Schmidt quittera le club à la fin de la saison",
+   "league": "Allemagne",
+   "date": "2026-11-03",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ]
+  },
+  {
+   "key": "psg-luisenrique-trois-changements",
+   "title": "PSG : Luis Enrique, « une plaisanterie » après les trois changements à Villarreal",
+   "date": "2026-11-04",
+   "league": "Ligue des champions",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#PSG",
+    "#LuisEnrique",
+    "#LigueDesChampions",
+    "#foot",
+    "#actufoot"
+   ]
+  },
+  {
+   "key": "fenerbahce-belozoglu-nomination",
+   "title": "Turquie : Fenerbahçe officialise Emre Belözoğlu comme nouvel entraîneur",
+   "date": "2026-11-04",
+   "league": "Turquie",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Fenerbahce",
+    "#Belozoglu",
+    "#SuperLig",
+    "#mercato",
+    "#entraineur"
+   ]
+  },
+  {
+   "key": "ol-fonseca-depart-sporting",
+   "title": "Ligue 1 : l'OL officialise le départ de Paulo Fonseca vers le Sporting",
+   "date": "2026-11-04",
+   "league": "Ligue 1",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#OL",
+    "#Fonseca",
+    "#Ligue1",
+    "#entraineur",
+    "#SportingCP"
+   ]
+  },
+  {
+   "key": "westham-parker-nomination",
+   "title": "Angleterre : West Ham nomme Scott Parker à la place de Nuno",
+   "date": "2026-11-04",
+   "league": "Angleterre",
+   "networks": [
+    "instagram",
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#WestHam",
+    "#ScottParker",
+    "#Championship",
+    "#entraineur",
+    "#football"
+   ]
+  },
+  {
+   "key": "lausanne-elsner-separation",
+   "title": "Suisse : Lausanne-Sport se sépare de Luka Elsner, dernier de Super League",
+   "date": "2026-11-04",
+   "league": "Suisse",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Lausanne",
+    "#LukaElsner",
+    "#SuperLeague",
+    "#entraineur",
+    "#football"
+   ]
+  },
+  {
+   "key": "caf-ballon-or-africain-nommes",
+   "title": "CAF Awards 2026 : les dix nommés au Ballon d'Or africain",
+   "date": "2026-11-04",
+   "league": "Afrique",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#CAFAwards",
+    "#BallonDorAfricain",
+    "#Hakimi",
+    "#football",
+    "#actufoot"
+   ]
+  }
+ ],
+ "counters": {
+  "alt": 27,
+  "music": 24,
+  "day": {
+   "date": "2026-11-04",
+   "all": 6,
+   "tiktok": 3
+  }
+ },
+ "prematch": [
+  {
+   "id": 1635669,
+   "home": "Galatasaray",
+   "away": "VfB Stuttgart",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T18:45:00+01:00",
+   "hashtag": "#GALSTU",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "story"
+   ]
+  },
+  {
+   "id": 1635723,
+   "home": "Shakhtar Donetsk",
+   "away": "Sporting CP",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T18:45:00+01:00",
+   "hashtag": "#SHASCP",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ]
+  },
+  {
+   "id": 1635746,
+   "home": "Villarreal",
+   "away": "Paris Saint Germain",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T21:00:00+01:00",
+   "hashtag": "#VILPSG",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "story"
+   ]
+  },
+  {
+   "id": 1635640,
+   "home": "Bodø/Glimt",
+   "away": "Lille",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T21:00:00+01:00",
+   "hashtag": "#BODLIL",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "story"
+   ]
+  },
+  {
+   "id": 1635695,
+   "home": "Manchester United",
+   "away": "AS Roma",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-03T21:00:00+01:00",
+   "hashtag": "#MUNROM",
+   "networks": [
+    "youtube",
+    "instagram",
+    "x",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ]
+  },
+  {
+   "id": 1636324,
+   "home": "Rennes",
+   "away": "Olympiakos Piraeus",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-04T16:30:00+01:00",
+   "hashtag": "#SRFCOLY",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635658",
+   "home": "Fenerbahçe",
+   "away": "Liverpool",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T18:45:00+01:00",
+   "hashtag": "#FENLIV",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635606",
+   "home": "AEK Athens FC",
+   "away": "Real Madrid",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T18:45:00+01:00",
+   "hashtag": "#AEKRMA",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635681",
+   "home": "Lens",
+   "away": "Como",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#RCLCOM",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635651",
+   "home": "Borussia Dortmund",
+   "away": "Real Betis",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#BVBBET",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635710",
+   "home": "RB Leipzig",
+   "away": "Manchester City",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#RBLMCI",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635707",
+   "home": "PSV Eindhoven",
+   "away": "Club Brugge KV",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#PSVBRU",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635656",
+   "home": "FC Porto",
+   "away": "Napoli",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#FCPNAP",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635726",
+   "home": "Slavia Praha",
+   "away": "Arsenal",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#SLAARS",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1635745",
+   "home": "Viking",
+   "away": "Sabah FA",
+   "comp": "Ligue des champions",
+   "kickoff": "2026-11-04T21:00:00+01:00",
+   "hashtag": "#VIKSAB",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  }
+ ],
+ "halftime": [
+  1635669,
+  1635723,
+  1635746,
+  1635640,
+  1635695,
+  "1636324",
+  "1635606",
+  "1635658",
+  "1635681",
+  "1635651",
+  "1635710",
+  "1635707",
+  "1635656",
+  "1635726",
+  "1635745"
+ ],
+ "fulltime": [
+  1635669,
+  1635723,
+  1635746,
+  1635640,
+  1635695,
+  "1636324",
+  "1635606",
+  "1635658"
+ ],
+ "cancelled": [
+  {
+   "id": 1644336,
+   "match": "Anaitasuna-Alaves",
+   "reason": "Copa del Rey reportée par la RFEF (deces de Jesus de Miguel), posts deja publies a 18h00/18h10 Paris le 2026-11-03"
+  }
+ ]
 }
