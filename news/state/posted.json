@@ -310,8 +310,8 @@
     }
   ],
   "counters": {
-    "alt": 22,
-    "music": 22,
+    "alt": 23,
+    "music": 23,
     "day": {
       "date": "2026-11-04",
       "all": 6,
@@ -414,6 +414,23 @@
       "comp": "Ligue Europa",
       "kickoff": "2026-11-04T16:30:00+01:00",
       "hashtag": "#SRFCOLY",
+      "networks": [
+        "facebook",
+        "instagram",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1635658",
+      "home": "Fenerbahçe",
+      "away": "Liverpool",
+      "comp": "Ligue des champions",
+      "kickoff": "2026-11-04T18:45:00+01:00",
+      "hashtag": "#FENLIV",
       "networks": [
         "facebook",
         "instagram",
