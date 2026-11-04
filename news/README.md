@@ -184,3 +184,10 @@ Cette règle REMPLACE toute mention « 3 au plus par créneau », « jusqu'à 3 
 - Texte des posts : accroche (« 🔥 Soirée de Ligue des champions : 7 matchs à 21 h »), UNE LIGNE PAR MATCH avec son hashtag, question, « 👉 totagoal.com », puis TOUS les hashtags de match + compétition (Instagram, Facebook, X, etc.). Sur X : tous les hashtags sans limite.
 - Carrousel : media = [cover.jpg de groupe (qui liste tous les matchs), puis jusqu'à 3 images supplémentaires] — la limite de 4 images de X/Instagram ne s'applique qu'aux images, pas aux matchs listés.
 - Mi-temps et fin de match : même principe (tous les matchs du créneau dans la carte de groupe, tous les hashtags).
+
+## INSTAGRAM : UNE SEULE VIDÉO PAR CRÉNEAU (ordre du propriétaire, 4 novembre : « ça limite encore plus le nombre de vidéos sur Instagram : une vidéo par match, s'ils sont à la même heure c'est un seul post »)
+Pour limiter les publications Instagram (incident « too many actions ») :
+- Par créneau de coup d'envoi, Instagram reçoit AU PLUS : 1 post groupé (carrousel OU vidéo selon l'alternance, jamais les deux) + 1 story (si le plafond de 4 stories par jour le permet). Un créneau d'un seul match = 1 seul post pour ce match ; deux matchs à la même heure = 1 seul post pour les deux ; etc.
+- La vidéo « canapé » du créneau (post à coup d'envoi − 50 min) n'est PAS publiée sur Instagram : elle reste sur Facebook (Reel), YouTube (Short) et X. Sur Instagram, la story du créneau montre déjà le canapé.
+- Jamais une vidéo par match sur Instagram quand plusieurs matchs ont lieu en même temps.
+- Les autres règles (30 minutes entre deux publications Instagram, 8 par jour au maximum, pause de 3 heures après une erreur) restent en vigueur.
