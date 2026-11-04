@@ -1057,8 +1057,40 @@
   "2027-03-06-20:05-toutes-ligues": {
    "date": "2027-03-06T20:05",
    "id": 0
+  },
+  "2027-03-07-12:30-match-15s": {
+   "date": "2027-03-07T12:30",
+   "id": 0
+  },
+  "2027-03-07-14:05-quiz-pays-origine": {
+   "date": "2027-03-07T14:05",
+   "id": 0
+  },
+  "2027-03-07-16:30-cree-ta-ligue-20s": {
+   "date": "2027-03-07T16:30",
+   "id": 0
+  },
+  "2027-03-07-19:00-seville-europa": {
+   "date": "2027-03-07T19:00",
+   "id": 0
+  },
+  "2027-03-08-11:05-classement-lundi": {
+   "date": "2027-03-08T11:05",
+   "id": 0
+  },
+  "2027-03-08-12:30-reponse-4-buts": {
+   "date": "2027-03-08T12:30",
+   "id": 0
+  },
+  "2027-03-08-17:25-quiz-liga": {
+   "date": "2027-03-08T17:25",
+   "id": 0
+  },
+  "2027-03-08-19:00-3-finales-euro": {
+   "date": "2027-03-08T19:00",
+   "id": 0
   }
  },
- "last_day": "2027-03-06",
+ "last_day": "2027-03-08",
  "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
