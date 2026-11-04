@@ -1121,8 +1121,40 @@
   "2027-03-10-19:00-vf-bresil": {
    "date": "2027-03-10T19:00",
    "id": 0
+  },
+  "2027-03-11-09:05-quiz-bernabeu": {
+   "date": "2027-03-11T09:05",
+   "id": 0
+  },
+  "2027-03-11-12:30-invite-ami": {
+   "date": "2027-03-11T12:30",
+   "id": 0
+  },
+  "2027-03-11-16:35-quiz-premier-league": {
+   "date": "2027-03-11T16:35",
+   "id": 0
+  },
+  "2027-03-11-19:00-conference-league": {
+   "date": "2027-03-11T19:00",
+   "id": 0
+  },
+  "2027-03-12-11:05-defi-weekend": {
+   "date": "2027-03-12T11:05",
+   "id": 0
+  },
+  "2027-03-12-12:30-match15-espagne-paysbas": {
+   "date": "2027-03-12T12:30",
+   "id": 0
+  },
+  "2027-03-12-18:00-vf-passe-retrait": {
+   "date": "2027-03-12T18:00",
+   "id": 0
+  },
+  "2027-03-12-20:05-weekend-approche": {
+   "date": "2027-03-12T20:05",
+   "id": 0
   }
  },
- "last_day": "2027-03-10",
+ "last_day": "2027-03-12",
  "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
