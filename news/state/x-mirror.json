@@ -1441,8 +1441,40 @@
     "2027-03-30-20:05-quiz-azzurri": {
       "date": "2027-03-30T20:05",
       "id": 416881278
+    },
+    "2027-03-31-09:05-quiz-champion-france": {
+      "date": "2027-03-31T09:05",
+      "id": 416917504
+    },
+    "2027-03-31-12:30-3-finales-wc-2010-2020": {
+      "date": "2027-03-31T12:30",
+      "id": 416917542
+    },
+    "2027-03-31-16:20-un-pays-un-championnat": {
+      "date": "2027-03-31T16:20",
+      "id": 416917584
+    },
+    "2027-03-31-19:00-var-4-decisions": {
+      "date": "2027-03-31T19:00",
+      "id": 416917610
+    },
+    "2027-04-01-11:05-hat-trick": {
+      "date": "2027-04-01T11:05",
+      "id": 416917644
+    },
+    "2027-04-01-12:30-leicester-champion": {
+      "date": "2027-04-01T12:30",
+      "id": 416917673
+    },
+    "2027-04-01-15:10-premier-league-38-matchs": {
+      "date": "2027-04-01T15:10",
+      "id": 416917712
+    },
+    "2027-04-01-18:00-coupe-de-france-amateurs": {
+      "date": "2027-04-01T18:00",
+      "id": 416917744
     }
   },
-  "last_day": "2027-03-30",
+  "last_day": "2027-04-01",
   "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
