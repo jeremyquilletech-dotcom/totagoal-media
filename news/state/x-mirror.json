@@ -897,8 +897,40 @@
   "2027-02-24-19:00-5-raisons": {
    "date": "2027-02-24T19:00",
    "id": 0
+  },
+  "2027-02-25-12:30-weekend-un-total": {
+   "date": "2027-02-25T12:30",
+   "id": 0
+  },
+  "2027-02-25-16:30-hat-trick": {
+   "date": "2027-02-25T16:30",
+   "id": 0
+  },
+  "2027-02-25-18:00-quiz-champion": {
+   "date": "2027-02-25T18:00",
+   "id": 0
+  },
+  "2027-02-25-20:00-estimate-confirm": {
+   "date": "2027-02-25T20:00",
+   "id": 0
+  },
+  "2027-02-26-11:05-estimate-several": {
+   "date": "2027-02-26T11:05",
+   "id": 0
+  },
+  "2027-02-26-12:30-saison-entiere": {
+   "date": "2027-02-26T12:30",
+   "id": 0
+  },
+  "2027-02-26-16:30-real-madrid": {
+   "date": "2027-02-26T16:30",
+   "id": 0
+  },
+  "2027-02-26-20:00-ligue-nations": {
+   "date": "2027-02-26T20:00",
+   "id": 0
   }
  },
- "last_day": "2027-02-24",
+ "last_day": "2027-02-26",
  "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
