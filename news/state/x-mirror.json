@@ -1217,8 +1217,40 @@
     "2027-03-16-19:30-total-mystere-2-dec": {
       "date": "2027-03-16T19:30",
       "id": 416637545
+    },
+    "2027-03-17-09:25-bareme-exemple": {
+      "date": "2027-03-17T09:25",
+      "id": 416669815
+    },
+    "2027-03-17-14:00-3-legendary-matches": {
+      "date": "2027-03-17T14:00",
+      "id": 416669864
+    },
+    "2027-03-17-16:30-3-finales-ldc": {
+      "date": "2027-03-17T16:30",
+      "id": 416669909
+    },
+    "2027-03-17-19:30-quiz-penalty-gardien": {
+      "date": "2027-03-17T19:30",
+      "id": 416669969
+    },
+    "2027-03-18-08:15-classique-psg-om": {
+      "date": "2027-03-18T08:15",
+      "id": 416669994
+    },
+    "2027-03-18-11:05-total-mystere-2-dec": {
+      "date": "2027-03-18T11:05",
+      "id": 416670031
+    },
+    "2027-03-18-14:00-3-classic-matches": {
+      "date": "2027-03-18T14:00",
+      "id": 416670062
+    },
+    "2027-03-18-19:30-quiz-coup-denvoi": {
+      "date": "2027-03-18T19:30",
+      "id": 416670104
     }
   },
-  "last_day": "2027-03-16",
+  "last_day": "2027-03-18",
   "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
