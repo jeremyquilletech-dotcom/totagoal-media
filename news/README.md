@@ -167,3 +167,10 @@ Le compte X est Premium : les posts peuvent être LONGS (long format). Plus de l
 - Rester lisible : visez une longueur raisonnable (quelques lignes, pas un pavé) ; la 1ère ligne doit accrocher car X replie les posts longs.
 - Si Metricool refuse un texte pour sa longueur (erreur renvoyée par createScheduledPost), ne pas le modifier en cachette : raccourcir au strict nécessaire et le signaler au propriétaire une seule fois.
 - Médias inchangés : une vidéo OU 4 images au maximum.
+
+## INSTAGRAM : ESPACEMENT RENFORCÉ (ordre du propriétaire, 4 novembre : « on espace, sinon un peu plus »)
+Le 4 novembre à 08:55 un Reel Instagram est quand même parti en ERROR « User is performing too many actions », alors que l'espacement de 15 minutes était respecté (la story de 08:40 était passée). L'espacement de 15 minutes ne suffit donc pas. Cette règle REMPLACE toute mention « 15 minutes » ou « 12 par jour » de ce README et des routines :
+- Au moins 30 minutes entre deux publications Instagram (posts, reels et stories confondus).
+- Plafond : 8 publications Instagram par jour (copies du planning comprises). Priorité : avant-matchs / stories d'avant-match, actus, puis le reste.
+- PAUSE : aucune nouvelle publication Instagram ne doit être programmée avant 12:00 (Paris) le 4 novembre. Le Reel Luis Enrique en erreur n'est PAS recréé (Metricool le relance seul). Facebook, X, YouTube, Threads, LinkedIn, Pinterest continuent normalement.
+- Si une nouvelle erreur « too many actions » apparaît : pause Instagram de 3 heures de plus, sans recréer le post.
