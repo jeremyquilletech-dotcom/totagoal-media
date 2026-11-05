@@ -2785,8 +2785,40 @@
   "2027-06-22|bundesliga-quiz-1520": {
    "date": "2027-06-22",
    "id": 417896808
+  },
+  "2027-06-23|ligue2-reel-1230": {
+   "date": "2027-06-23",
+   "id": 417935052
+  },
+  "2027-06-23|aiglons-quiz-1425": {
+   "date": "2027-06-23",
+   "id": 417935088
+  },
+  "2027-06-23|derby-manchester-1500": {
+   "date": "2027-06-23",
+   "id": 417935130
+  },
+  "2027-06-23|tournois-coupes-1900": {
+   "date": "2027-06-23",
+   "id": 417935168
+  },
+  "2027-06-24|portugal-quiz-0845": {
+   "date": "2027-06-24",
+   "id": 417935222
+  },
+  "2027-06-24|derby-madrid-1230": {
+   "date": "2027-06-24",
+   "id": 417935257
+  },
+  "2027-06-24|recompenses-boosts-1500": {
+   "date": "2027-06-24",
+   "id": 417935296
+  },
+  "2027-06-24|sang-et-or-quiz-1800": {
+   "date": "2027-06-24",
+   "id": 417935339
   }
  },
- "last_day": "2027-06-22",
+ "last_day": "2027-06-24",
  "note": "2026-11-03: jours du 3 au 22 novembre remplis (4 posts X par jour). Les routines rapides reprennent au 23."
 }
