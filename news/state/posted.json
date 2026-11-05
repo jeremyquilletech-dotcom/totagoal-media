@@ -441,8 +441,8 @@
   }
  ],
  "counters": {
-  "alt": 37,
-  "music": 32,
+  "alt": 39,
+  "music": 34,
   "day": {
    "date": "2026-11-05",
    "all": 6,
@@ -990,6 +990,294 @@
    "networks": [
     "facebook",
     "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636219",
+   "home": "AZ Alkmaar",
+   "away": "Juventus",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#AZAJUV",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636223",
+   "home": "Bayer Leverkusen",
+   "away": "Marseille",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#B04OM",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636229",
+   "home": "Benfica",
+   "away": "Lech Poznań",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#SLBLEC",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636250",
+   "home": "Celtic",
+   "away": "Beşiktaş",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#CELBES",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636245",
+   "home": "Celta Vigo",
+   "away": "Union Saint-Gilloise",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#CELUNI",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636264",
+   "home": "Hapoel Beer-Sheva",
+   "away": "OFI Crète",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#HAPOFI",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636339",
+   "home": "Sturm Graz",
+   "away": "Celje",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#STUCEL",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636345",
+   "home": "Sunderland",
+   "away": "Dinamo Zagreb",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#SUNDIN",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636347",
+   "home": "Torreense",
+   "away": "Ararat-Armenia",
+   "comp": "Ligue Europa",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#TORARA",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636478",
+   "home": "Twente",
+   "away": "Pafos",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#TWEPAF",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636456",
+   "home": "Monaco",
+   "away": "Nordsjaelland",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#ASMNOR",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636408",
+   "home": "FC Copenhague",
+   "away": "Iberia 1999",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#COPIBE",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636416",
+   "home": "Getafe",
+   "away": "Brighton",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#GETBRI",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636447",
+   "home": "Lugano",
+   "away": "Žalgiris",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#LUGZAL",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636465",
+   "home": "Panathinaikos",
+   "away": "CSKA Sofia",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#PANCSK",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636483",
+   "home": "Universitatea Craiova",
+   "away": "Egnatia",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#UNIEGN",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636469",
+   "home": "Saint-Trond",
+   "away": "Brann",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#SAIBRA",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1636466",
+   "home": "Riga",
+   "away": "Jablonec",
+   "comp": "Ligue Conférence",
+   "kickoff": "2026-11-05T21:00:00+01:00",
+   "hashtag": "#RIGJAB",
+   "networks": [
+    "facebook",
     "youtube",
     "threads",
     "linkedin",
