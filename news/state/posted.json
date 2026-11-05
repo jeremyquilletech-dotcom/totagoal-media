@@ -329,15 +329,38 @@
     "#UCL",
     "#foot"
    ]
+  },
+  {
+   "key": "kane-bayern-prolongation-2029",
+   "title": "Bayern : Harry Kane prolonge jusqu'en 2029",
+   "league": "Bundesliga",
+   "date": "2026-11-05",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Kane",
+    "#Bayern",
+    "#Bundesliga",
+    "#mercato",
+    "#foot"
+   ]
   }
  ],
  "counters": {
-  "alt": 29,
-  "music": 25,
+  "alt": 30,
+  "music": 26,
   "day": {
    "date": "2026-11-05",
-   "all": 1,
-   "tiktok": 0
+   "all": 2,
+   "tiktok": 1
   }
  },
  "prematch": [
