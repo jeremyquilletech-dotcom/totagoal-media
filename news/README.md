@@ -191,3 +191,6 @@ Pour limiter les publications Instagram (incident « too many actions ») :
 - La vidéo « canapé » du créneau (post à coup d'envoi − 50 min) n'est PAS publiée sur Instagram : elle reste sur Facebook (Reel), YouTube (Short) et X. Sur Instagram, la story du créneau montre déjà le canapé.
 - Jamais une vidéo par match sur Instagram quand plusieurs matchs ont lieu en même temps.
 - Les autres règles (30 minutes entre deux publications Instagram, 8 par jour au maximum, pause de 3 heures après une erreur) restent en vigueur.
+
+## THREADS : 500 CARACTÈRES MAXIMUM (incident du 5 novembre : « Media container not created » sur les posts groupés de 546 à 599 caractères)
+Le texte d'un post Threads est limité à 500 caractères (hashtags compris). Les posts groupés (avant-matchs de 8 à 9 matchs, etc.) dépassent cette limite : ne JAMAIS mettre `threads` dans les providers du post long (Facebook / LinkedIn / YouTube). Créer un post Threads SÉPARÉ avec un texte court (≤ 500 caractères, à compter avant d'envoyer) : accroche, liste des matchs sur une ligne (« A–B, C–D… », noms raccourcis), « Combien de buts ? 👉 totagoal.com », puis TOUS les hashtags de match + compétition. Même règle pour Pinterest (description ≤ 500) et pour toute actu dont le texte dépasse 500 caractères. Ne jamais tronquer les hashtags de match.
