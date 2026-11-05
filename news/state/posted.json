@@ -375,15 +375,36 @@
     "#Seleccao",
     "#foot"
    ]
+  },
+  {
+   "key": "barca-raphinha-prolongation-2030",
+   "title": "FC Barcelone : Raphinha prolonge jusqu'en 2030",
+   "league": "Liga",
+   "date": "2026-11-05",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Raphinha",
+    "#FCBarcelona",
+    "#LaLiga",
+    "#mercato"
+   ]
   }
  ],
  "counters": {
-  "alt": 31,
-  "music": 27,
+  "alt": 32,
+  "music": 28,
   "day": {
    "date": "2026-11-05",
-   "all": 3,
-   "tiktok": 2
+   "all": 4,
+   "tiktok": 3
   }
  },
  "prematch": [
