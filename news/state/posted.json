@@ -416,14 +416,36 @@
     "#entraineur",
     "#football"
    ]
+  },
+  {
+   "key": "senegal-vieira-liste-soudan",
+   "title": "Sénégal : Vieira dévoile sa liste, Sadio Mané absent",
+   "league": "Sélections",
+   "date": "2026-11-05",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Senegal",
+    "#Vieira",
+    "#CAN2027",
+    "#SadioMane",
+    "#foot"
+   ]
   }
  ],
  "counters": {
-  "alt": 35,
-  "music": 31,
+  "alt": 36,
+  "music": 32,
   "day": {
    "date": "2026-11-05",
-   "all": 5,
+   "all": 6,
    "tiktok": 3
   }
  },
