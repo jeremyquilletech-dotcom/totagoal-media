@@ -352,15 +352,38 @@
     "#mercato",
     "#foot"
    ]
+  },
+  {
+   "key": "ronaldo-retraite-internationale",
+   "title": "Portugal : Cristiano Ronaldo annonce sa retraite internationale",
+   "league": "Sélections",
+   "date": "2026-11-05",
+   "networks": [
+    "youtube",
+    "instagram",
+    "tiktok",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Ronaldo",
+    "#CR7",
+    "#Portugal",
+    "#Seleccao",
+    "#foot"
+   ]
   }
  ],
  "counters": {
-  "alt": 30,
-  "music": 26,
+  "alt": 31,
+  "music": 27,
   "day": {
    "date": "2026-11-05",
-   "all": 2,
-   "tiktok": 1
+   "all": 3,
+   "tiktok": 2
   }
  },
  "prematch": [
