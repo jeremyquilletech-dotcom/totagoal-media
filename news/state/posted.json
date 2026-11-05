@@ -396,14 +396,34 @@
     "#LaLiga",
     "#mercato"
    ]
+  },
+  {
+   "key": "bromley-robinson-nomination",
+   "title": "Bromley : Karl Robinson nommé entraîneur",
+   "league": "League One",
+   "date": "2026-11-05",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Bromley",
+    "#LeagueOne",
+    "#entraineur",
+    "#football"
+   ]
   }
  ],
  "counters": {
-  "alt": 32,
-  "music": 28,
+  "alt": 33,
+  "music": 29,
   "day": {
    "date": "2026-11-05",
-   "all": 4,
+   "all": 5,
    "tiktok": 3
   }
  },
