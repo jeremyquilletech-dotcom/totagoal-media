@@ -507,15 +507,37 @@
         "#LigueDesNations",
         "#foot"
       ]
+    },
+    {
+      "key": "coady-retraite",
+      "title": "Angleterre : Conor Coady prend sa retraite à 33 ans",
+      "league": "Angleterre",
+      "date": "2026-11-06",
+      "source": "ESPN",
+      "networks": [
+        "youtube",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "tiktok"
+      ],
+      "hashtags": [
+        "#Coady",
+        "#ConorCoady",
+        "#Angleterre",
+        "#retraite",
+        "#foot"
+      ]
     }
   ],
   "counters": {
-    "alt": 49,
-    "music": 39,
+    "alt": 50,
+    "music": 40,
     "day": {
       "date": "2026-11-06",
-      "all": 3,
-      "tiktok": 0
+      "all": 4,
+      "tiktok": 1
     }
   },
   "prematch": [
