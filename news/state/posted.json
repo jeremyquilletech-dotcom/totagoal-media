@@ -576,8 +576,8 @@
     }
   ],
   "counters": {
-    "alt": 53,
-    "music": 43,
+    "alt": 54,
+    "music": 44,
     "day": {
       "date": "2026-11-06",
       "all": 6,
@@ -1434,6 +1434,57 @@
         "linkedin",
         "x",
         "pinterest"
+      ]
+    },
+    {
+      "id": "1552817",
+      "home": "Toulouse",
+      "away": "Strasbourg",
+      "comp": "Ligue 1",
+      "kickoff": "2026-11-06T20:45:00+01:00",
+      "hashtag": "#TFCRCSA",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest",
+        "instagram"
+      ]
+    },
+    {
+      "id": "1550196",
+      "home": "Venezia",
+      "away": "Udinese",
+      "comp": "Serie A",
+      "kickoff": "2026-11-06T20:45:00+01:00",
+      "hashtag": "#VENUDI",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest",
+        "instagram"
+      ]
+    },
+    {
+      "id": "1558677",
+      "home": "Standard Liège",
+      "away": "Beveren",
+      "comp": "Pro League",
+      "kickoff": "2026-11-06T20:45:00+01:00",
+      "hashtag": "#STABEV",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest",
+        "instagram"
       ]
     }
   ],
