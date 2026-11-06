@@ -529,15 +529,37 @@
         "#retraite",
         "#foot"
       ]
+    },
+    {
+      "key": "portugal-bernardo-silva-capitaine",
+      "title": "Portugal : Bernardo Silva capitaine après la retraite de Ronaldo",
+      "league": "Sélections",
+      "date": "2026-11-06",
+      "source": "Foot Mercato",
+      "networks": [
+        "youtube",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "tiktok"
+      ],
+      "hashtags": [
+        "#Portugal",
+        "#BernardoSilva",
+        "#LigueDesNations",
+        "#capitaine",
+        "#foot"
+      ]
     }
   ],
   "counters": {
-    "alt": 50,
-    "music": 40,
+    "alt": 51,
+    "music": 41,
     "day": {
       "date": "2026-11-06",
-      "all": 4,
-      "tiktok": 1
+      "all": 5,
+      "tiktok": 2
     }
   },
   "prematch": [
