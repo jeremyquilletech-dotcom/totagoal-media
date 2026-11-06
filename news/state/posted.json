@@ -576,8 +576,8 @@
     }
   ],
   "counters": {
-    "alt": 54,
-    "music": 44,
+    "alt": 56,
+    "music": 46,
     "day": {
       "date": "2026-11-06",
       "all": 6,
@@ -1485,6 +1485,38 @@
         "x",
         "pinterest",
         "instagram"
+      ]
+    },
+    {
+      "id": "1575218",
+      "home": "Hamburger SV",
+      "away": "Borussia Mönchengladbach",
+      "comp": "Bundesliga",
+      "kickoff": "2026-11-06T20:30:00+01:00",
+      "hashtag": "#HAMBOR",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1557460",
+      "home": "Everton",
+      "away": "Coventry",
+      "comp": "Premier League",
+      "kickoff": "2026-11-06T21:00:00+01:00",
+      "hashtag": "#EVECOV",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
       ]
     }
   ],
