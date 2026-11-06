@@ -554,8 +554,8 @@
     }
   ],
   "counters": {
-    "alt": 51,
-    "music": 41,
+    "alt": 52,
+    "music": 42,
     "day": {
       "date": "2026-11-06",
       "all": 5,
@@ -1389,6 +1389,22 @@
       "comp": "Ligue Conférence",
       "kickoff": "2026-11-05T21:00:00+01:00",
       "hashtag": "#RIGJAB",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1584462",
+      "home": "Gaziantep FK",
+      "away": "Kasımpaşa",
+      "comp": "Süper Lig",
+      "kickoff": "2026-11-06T18:00:00+01:00",
+      "hashtag": "#GAZKAS",
       "networks": [
         "facebook",
         "youtube",
