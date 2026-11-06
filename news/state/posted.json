@@ -484,14 +484,37 @@
         "#resultat",
         "#foot"
       ]
+    },
+    {
+      "key": "angleterre-liste-tuchel-nov",
+      "title": "Angleterre : Tuchel écarte Palmer et appelle Jobe Bellingham",
+      "league": "Sélections",
+      "date": "2026-11-06",
+      "source": "Sky Sports",
+      "networks": [
+        "youtube",
+        "instagram",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "twitter"
+      ],
+      "hashtags": [
+        "#Angleterre",
+        "#ThreeLions",
+        "#Tuchel",
+        "#LigueDesNations",
+        "#foot"
+      ]
     }
   ],
   "counters": {
-    "alt": 48,
-    "music": 38,
+    "alt": 49,
+    "music": 39,
     "day": {
       "date": "2026-11-06",
-      "all": 2,
+      "all": 3,
       "tiktok": 0
     }
   },
