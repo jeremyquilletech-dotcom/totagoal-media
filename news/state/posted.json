@@ -438,15 +438,38 @@
     "#SadioMane",
     "#foot"
    ]
+  },
+  {
+   "date": "2026-11-06",
+   "key": "indice-uefa-france-portugal",
+   "title": "Indice UEFA : la France garde la 5e place, le Portugal se rapproche",
+   "league": "Coupes d'Europe",
+   "source": "RMC Sport",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#IndiceUEFA",
+    "#Ligue1",
+    "#Portugal",
+    "#foot",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 46,
-  "music": 36,
+  "alt": 47,
+  "music": 37,
   "day": {
-   "date": "2026-11-05",
-   "all": 6,
-   "tiktok": 3
+   "date": "2026-11-06",
+   "all": 1,
+   "tiktok": 0
   }
  },
  "prematch": [
