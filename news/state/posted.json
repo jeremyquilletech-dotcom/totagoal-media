@@ -551,15 +551,37 @@
         "#capitaine",
         "#foot"
       ]
+    },
+    {
+      "key": "santos-pere-neymar-pdg",
+      "title": "Brésil : le père de Neymar nommé PDG de Santos",
+      "league": "Brésil",
+      "date": "2026-11-06",
+      "source": "Foot Mercato",
+      "networks": [
+        "youtube",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "tiktok"
+      ],
+      "hashtags": [
+        "#Santos",
+        "#Neymar",
+        "#SantosFC",
+        "#Brasileirao",
+        "#foot"
+      ]
     }
   ],
   "counters": {
-    "alt": 52,
-    "music": 42,
+    "alt": 53,
+    "music": 43,
     "day": {
       "date": "2026-11-06",
-      "all": 5,
-      "tiktok": 2
+      "all": 6,
+      "tiktok": 3
     }
   },
   "prematch": [
