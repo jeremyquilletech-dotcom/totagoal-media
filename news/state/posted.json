@@ -576,8 +576,8 @@
     }
   ],
   "counters": {
-    "alt": 58,
-    "music": 46,
+    "alt": 59,
+    "music": 47,
     "day": {
       "date": "2026-11-06",
       "all": 6,
@@ -1512,6 +1512,23 @@
       "hashtag": "#EVECOV",
       "networks": [
         "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1584460",
+      "home": "Eyüpspor",
+      "away": "Kocaelispor",
+      "comp": "Süper Lig",
+      "kickoff": "2026-11-07T11:30:00+01:00",
+      "hashtag": "#EYUKOC",
+      "networks": [
+        "facebook",
+        "instagram",
         "youtube",
         "threads",
         "linkedin",
