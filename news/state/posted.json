@@ -576,8 +576,8 @@
     }
   ],
   "counters": {
-    "alt": 61,
-    "music": 50,
+    "alt": 62,
+    "music": 51,
     "day": {
       "date": "2026-11-07",
       "all": 0,
@@ -1594,6 +1594,23 @@
       "comp": "Süper Lig",
       "kickoff": "2026-11-07T14:00:00+01:00",
       "hashtag": "#SAMKON",
+      "networks": [
+        "facebook",
+        "instagram",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1575217",
+      "home": "Mainz",
+      "away": "Bayern Munich",
+      "comp": "Bundesliga",
+      "kickoff": "2026-11-07T15:30:00+01:00",
+      "hashtag": "#MAIBAY",
       "networks": [
         "facebook",
         "instagram",
