@@ -596,15 +596,39 @@
         "#resultat",
         "#foot"
       ]
+    },
+    {
+      "key": "losc-nianzou-igamane-prolongations",
+      "title": "Ligue 1 : Lille prolonge Nianzou et Igamane, jusqu'en 2029 et 2031",
+      "league": "Ligue 1",
+      "date": "2026-11-07",
+      "source": "Foot Mercato",
+      "networks": [
+        "youtube",
+        "instagram",
+        "tiktok",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "twitter"
+      ],
+      "hashtags": [
+        "#LOSC",
+        "#Nianzou",
+        "#Igamane",
+        "#Ligue1",
+        "#mercato"
+      ]
     }
   ],
   "counters": {
-    "alt": 65,
-    "music": 52,
+    "alt": 66,
+    "music": 53,
     "day": {
       "date": "2026-11-07",
-      "all": 1,
-      "tiktok": 0
+      "all": 2,
+      "tiktok": 1
     }
   },
   "prematch": [
