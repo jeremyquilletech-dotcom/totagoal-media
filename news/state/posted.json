@@ -573,14 +573,37 @@
         "#Brasileirao",
         "#foot"
       ]
+    },
+    {
+      "key": "arsenal-hull-1-0-leader",
+      "title": "Premier League : Arsenal bat Hull 1-0, six points d'avance",
+      "league": "Premier League",
+      "date": "2026-11-07",
+      "source": "Sky Sports",
+      "networks": [
+        "youtube",
+        "instagram",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "twitter"
+      ],
+      "hashtags": [
+        "#Arsenal",
+        "#PremierLeague",
+        "#Odegaard",
+        "#resultat",
+        "#foot"
+      ]
     }
   ],
   "counters": {
-    "alt": 64,
-    "music": 51,
+    "alt": 65,
+    "music": 52,
     "day": {
       "date": "2026-11-07",
-      "all": 0,
+      "all": 1,
       "tiktok": 0
     }
   },
