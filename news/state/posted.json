@@ -576,8 +576,8 @@
     }
   ],
   "counters": {
-    "alt": 60,
-    "music": 48,
+    "alt": 61,
+    "music": 50,
     "day": {
       "date": "2026-11-07",
       "all": 0,
@@ -1543,6 +1543,57 @@
       "comp": "Premier League",
       "kickoff": "2026-11-07T13:30:00+01:00",
       "hashtag": "#LEETOT",
+      "networks": [
+        "facebook",
+        "instagram",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1552523",
+      "home": "Clermont Foot",
+      "away": "Rodez",
+      "comp": "Ligue 2",
+      "kickoff": "2026-11-07T14:00:00+01:00",
+      "hashtag": "#CLEROD",
+      "networks": [
+        "facebook",
+        "instagram",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1570447",
+      "home": "Málaga",
+      "away": "Racing Santander",
+      "comp": "LaLiga",
+      "kickoff": "2026-11-07T14:00:00+01:00",
+      "hashtag": "#MALRAC",
+      "networks": [
+        "facebook",
+        "instagram",
+        "youtube",
+        "threads",
+        "linkedin",
+        "x",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1584465",
+      "home": "Samsunspor",
+      "away": "Konyaspor",
+      "comp": "Süper Lig",
+      "kickoff": "2026-11-07T14:00:00+01:00",
+      "hashtag": "#SAMKON",
       "networks": [
         "facebook",
         "instagram",
