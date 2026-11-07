@@ -620,14 +620,37 @@
         "#Ligue1",
         "#mercato"
       ]
+    },
+    {
+      "key": "forest-city-3-1-delap",
+      "title": "Premier League : Nottingham Forest bat Man City 3-1, 3e défaite de suite",
+      "league": "Premier League",
+      "date": "2026-11-07",
+      "source": "ESPN",
+      "networks": [
+        "youtube",
+        "instagram",
+        "facebook",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "twitter"
+      ],
+      "hashtags": [
+        "#NFFC",
+        "#ManCity",
+        "#PremierLeague",
+        "#Delap",
+        "#foot"
+      ]
     }
   ],
   "counters": {
-    "alt": 66,
-    "music": 53,
+    "alt": 67,
+    "music": 54,
     "day": {
       "date": "2026-11-07",
-      "all": 2,
+      "all": 3,
       "tiktok": 1
     }
   },
