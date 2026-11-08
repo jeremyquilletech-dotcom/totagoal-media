@@ -712,14 +712,36 @@
     "#resultat",
     "#foot"
    ]
+  },
+  {
+   "key": "dalian-champion-chine",
+   "title": "Chine : Dalian champion pour la première fois, Chengdu s'écroule",
+   "league": "Chine",
+   "date": "2026-11-08",
+   "source": "RMC Sport",
+   "networks": [
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Dalian",
+    "#Chengdu",
+    "#SuperLigueChinoise",
+    "#champion",
+    "#foot"
+   ]
   }
  ],
  "counters": {
-  "alt": 76,
-  "music": 63,
+  "alt": 77,
+  "music": 64,
   "day": {
    "date": "2026-11-08",
-   "all": 3,
+   "all": 4,
    "tiktok": 0
   }
  },
