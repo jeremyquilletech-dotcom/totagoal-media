@@ -715,8 +715,8 @@
   }
  ],
  "counters": {
-  "alt": 73,
-  "music": 60,
+  "alt": 75,
+  "music": 62,
   "day": {
    "date": "2026-11-08",
    "all": 3,
@@ -1803,6 +1803,38 @@
    "networks": [
     "facebook",
     "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1646915",
+   "home": "Stafford Rangers",
+   "away": "Grimsby",
+   "comp": "FA Cup",
+   "kickoff": "2026-11-08T13:00:00+01:00",
+   "hashtag": "#STAGRI",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1558672",
+   "home": "Club Bruges",
+   "away": "Anderlecht",
+   "comp": "Pro League",
+   "kickoff": "2026-11-08T13:30:00+01:00",
+   "hashtag": "#CLUAND",
+   "networks": [
+    "facebook",
     "youtube",
     "threads",
     "linkedin",
