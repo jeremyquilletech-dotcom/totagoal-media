@@ -756,14 +756,29 @@
     "#football",
     "#resultat"
    ]
+  },
+  {
+   "key": "lille-rennes-2-1-dauphin",
+   "title": "Ligue 1 : Lille s'impose 2-1 à Rennes et devient dauphin du PSG",
+   "league": "Ligue 1",
+   "date": "2026-11-08",
+   "source": "Foot Mercato",
+   "networks": [
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ]
   }
  ],
  "counters": {
-  "alt": 78,
-  "music": 65,
+  "alt": 79,
+  "music": 66,
   "day": {
    "date": "2026-11-08",
-   "all": 5,
+   "all": 6,
    "tiktok": 0
   }
  },
