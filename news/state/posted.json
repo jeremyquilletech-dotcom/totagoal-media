@@ -666,14 +666,60 @@
     "#SoulierDor",
     "#foot"
    ]
+  },
+  {
+   "key": "boca-champion-argentine",
+   "title": "Argentine : Boca Juniors champion grâce à un but à la 97e minute",
+   "league": "Argentine",
+   "date": "2026-11-08",
+   "source": "RMC Sport",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Boca",
+    "#BocaJuniors",
+    "#Argentine",
+    "#champion",
+    "#foot"
+   ]
+  },
+  {
+   "key": "fonseca-debuts-sporting",
+   "title": "Portugal : Fonseca gagne ses débuts au Sporting, 1-0 contre Moreirense",
+   "league": "Liga Portugal",
+   "date": "2026-11-08",
+   "source": "Foot Mercato",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Sporting",
+    "#Fonseca",
+    "#LigaPortugal",
+    "#resultat",
+    "#foot"
+   ]
   }
  ],
  "counters": {
-  "alt": 69,
-  "music": 56,
+  "alt": 71,
+  "music": 58,
   "day": {
    "date": "2026-11-08",
-   "all": 1,
+   "all": 3,
    "tiktok": 0
   }
  },
