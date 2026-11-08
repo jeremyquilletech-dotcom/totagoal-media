@@ -734,14 +734,36 @@
     "#champion",
     "#foot"
    ]
+  },
+  {
+   "key": "wsl-arsenal-liverpool-russo",
+   "title": "WSL : Arsenal s'impose 2-1 à Liverpool, doublé d'Alessia Russo",
+   "league": "WSL",
+   "date": "2026-11-08",
+   "source": "Sky Sports",
+   "networks": [
+    "youtube",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#WSL",
+    "#Arsenal",
+    "#Russo",
+    "#football",
+    "#resultat"
+   ]
   }
  ],
  "counters": {
-  "alt": 77,
-  "music": 64,
+  "alt": 78,
+  "music": 65,
   "day": {
    "date": "2026-11-08",
-   "all": 4,
+   "all": 5,
    "tiktok": 0
   }
  },
