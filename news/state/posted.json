@@ -715,8 +715,8 @@
   }
  ],
  "counters": {
-  "alt": 71,
-  "music": 58,
+  "alt": 73,
+  "music": 60,
   "day": {
    "date": "2026-11-08",
    "all": 3,
@@ -1767,6 +1767,39 @@
    "comp": "Süper Lig",
    "kickoff": "2026-11-08T11:30:00+01:00",
    "hashtag": "#RIZERZ",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1552221",
+   "home": "Heerenveen",
+   "away": "Feyenoord",
+   "comp": "Eredivisie",
+   "kickoff": "2026-11-08T12:15:00+01:00",
+   "hashtag": "#HEEFEY",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1550193",
+   "home": "Napoli",
+   "away": "Lazio",
+   "comp": "Serie A",
+   "kickoff": "2026-11-08T12:30:00+01:00",
+   "hashtag": "#NAPLAZ",
    "networks": [
     "facebook",
     "instagram",
