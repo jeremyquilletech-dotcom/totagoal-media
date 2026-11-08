@@ -669,8 +669,8 @@
   }
  ],
  "counters": {
-  "alt": 68,
-  "music": 55,
+  "alt": 69,
+  "music": 56,
   "day": {
    "date": "2026-11-08",
    "all": 1,
@@ -1704,6 +1704,23 @@
    "comp": "Bundesliga",
    "kickoff": "2026-11-07T15:30:00+01:00",
    "hashtag": "#MAIBAY",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1584464",
+   "home": "Rizespor",
+   "away": "Erzurumspor FK",
+   "comp": "Süper Lig",
+   "kickoff": "2026-11-08T11:30:00+01:00",
+   "hashtag": "#RIZERZ",
    "networks": [
     "facebook",
     "instagram",
