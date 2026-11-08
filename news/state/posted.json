@@ -715,8 +715,8 @@
   }
  ],
  "counters": {
-  "alt": 75,
-  "music": 62,
+  "alt": 76,
+  "music": 63,
   "day": {
    "date": "2026-11-08",
    "all": 3,
@@ -1833,6 +1833,22 @@
    "comp": "Pro League",
    "kickoff": "2026-11-08T13:30:00+01:00",
    "hashtag": "#CLUAND",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1584459",
+   "home": "Çorum FK",
+   "away": "Fenerbahçe",
+   "comp": "Süper Lig",
+   "kickoff": "2026-11-08T14:00:00+01:00",
+   "hashtag": "#CORFEN",
    "networks": [
     "facebook",
     "youtube",
