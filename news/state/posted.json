@@ -841,15 +841,39 @@
     "#actufoot",
     "#foot"
    ]
+  },
+  {
+   "key": "raul-oviedo-entraineur",
+   "title": "Espagne : Raúl nommé entraîneur du Real Oviedo, en deuxième division",
+   "league": "Liga 2",
+   "date": "2026-11-09",
+   "source": "Kicker, ESPN",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Raul",
+    "#RealOviedo",
+    "#LaLiga2",
+    "#entraineur",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 83,
-  "music": 70,
+  "alt": 84,
+  "music": 71,
   "day": {
    "date": "2026-11-09",
-   "all": 4,
-   "tiktok": 0
+   "all": 5,
+   "tiktok": 1
   }
  },
  "prematch": [
