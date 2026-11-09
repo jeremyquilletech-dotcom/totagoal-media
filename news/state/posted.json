@@ -818,14 +818,37 @@
     "pinterest",
     "twitter"
    ]
+  },
+  {
+   "key": "kumbedi-bleus-kalulu",
+   "title": "Équipe de France : Saël Kumbedi appelé par Zidane pour remplacer Kalulu",
+   "league": "Équipe de France",
+   "date": "2026-11-09",
+   "source": "franceinfo",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ],
+   "hashtags": [
+    "#Bleus",
+    "#Kumbedi",
+    "#EquipeDeFrance",
+    "#actufoot",
+    "#foot"
+   ]
   }
  ],
  "counters": {
-  "alt": 82,
-  "music": 69,
+  "alt": 83,
+  "music": 70,
   "day": {
    "date": "2026-11-09",
-   "all": 3,
+   "all": 4,
    "tiktok": 0
   }
  },
