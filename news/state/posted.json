@@ -865,15 +865,39 @@
     "#entraineur",
     "#actufoot"
    ]
+  },
+  {
+   "key": "ol-vicens-entraineur",
+   "title": "Ligue 1 : l'OL nomme Carlos Vicens entraîneur, successeur de Fonseca",
+   "league": "Ligue 1",
+   "date": "2026-11-09",
+   "source": "franceinfo, Foot Mercato, RMC Sport",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#OL",
+    "#CarlosVicens",
+    "#Ligue1",
+    "#entraineur",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 84,
-  "music": 71,
+  "alt": 85,
+  "music": 72,
   "day": {
    "date": "2026-11-09",
-   "all": 5,
-   "tiktok": 1
+   "all": 6,
+   "tiktok": 2
   }
  },
  "prematch": [
