@@ -786,14 +786,30 @@
     "pinterest",
     "twitter"
    ]
+  },
+  {
+   "key": "atletico-barca-1-2-fermin",
+   "title": "Liga : le Barça s'impose 2-1 à l'Atlético grâce à un doublé de Fermín López",
+   "league": "Liga",
+   "date": "2026-11-09",
+   "source": "ESPN",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter"
+   ]
   }
  ],
  "counters": {
-  "alt": 80,
-  "music": 67,
+  "alt": 81,
+  "music": 68,
   "day": {
    "date": "2026-11-09",
-   "all": 1,
+   "all": 2,
    "tiktok": 0
   }
  },
