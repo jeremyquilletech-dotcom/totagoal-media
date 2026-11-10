@@ -936,15 +936,38 @@
     "#actufoot",
     "#football"
    ]
+  },
+  {
+   "key": "lens-cahuzac-limoge",
+   "title": "Ligue 1 : Lens limoge Yannick Cahuzac, promu il y a deux mois",
+   "league": "Ligue 1",
+   "date": "2026-11-10",
+   "source": "RMC Sport, Foot Mercato",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Lens",
+    "#RCLens",
+    "#Ligue1",
+    "#limogeage",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 87,
-  "music": 74,
+  "alt": 88,
+  "music": 75,
   "day": {
    "date": "2026-11-10",
-   "all": 2,
-   "tiktok": 2
+   "all": 3,
+   "tiktok": 3
   }
  },
  "prematch": [
