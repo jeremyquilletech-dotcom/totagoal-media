@@ -998,8 +998,8 @@
   }
  ],
  "counters": {
-  "alt": 92,
-  "music": 83,
+  "alt": 93,
+  "music": 84,
   "day": {
    "date": "2026-11-10",
    "all": 5,
@@ -2214,6 +2214,22 @@
    "comp": "Copa del Rey",
    "kickoff": "2026-11-10T20:00:00+01:00",
    "hashtag": "#MIJREA",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1644380",
+   "home": "Tavernes",
+   "away": "Valencia",
+   "comp": "Copa del Rey",
+   "kickoff": "2026-11-10T21:00:00+01:00",
+   "hashtag": "#TAVVAL",
    "networks": [
     "facebook",
     "youtube",
