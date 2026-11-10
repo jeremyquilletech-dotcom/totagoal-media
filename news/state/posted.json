@@ -983,14 +983,26 @@
     "#NationsLeague",
     "#actufoot"
    ]
+  },
+  {
+   "key": "kroupi-bleus-thuram",
+   "title": "Équipe de France : Eli Junior Kroupi appelé pour la première fois, à la place de Thuram",
+   "date": "2026-11-10",
+   "league": "Équipe de France",
+   "networks": [
+    "facebook",
+    "threads",
+    "linkedin",
+    "youtube"
+   ]
   }
  ],
  "counters": {
-  "alt": 90,
-  "music": 80,
+  "alt": 91,
+  "music": 81,
   "day": {
    "date": "2026-11-10",
-   "all": 4,
+   "all": 5,
    "tiktok": 3
   }
  },
