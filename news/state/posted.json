@@ -889,14 +889,61 @@
     "#entraineur",
     "#actufoot"
    ]
+  },
+  {
+   "key": "mbappe-joueur-du-mois-liga",
+   "title": "Liga : Mbappé élu joueur du mois d'octobre, devant Yamal",
+   "league": "Liga",
+   "date": "2026-11-10",
+   "source": "RMC Sport, Le Figaro",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "twitter",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Mbappé",
+    "#RealMadrid",
+    "#LaLiga",
+    "#actufoot",
+    "#TotaGoal"
+   ]
+  },
+  {
+   "key": "brady-quitte-birmingham",
+   "title": "Championship : Tom Brady n'est plus actionnaire de Birmingham City",
+   "league": "Championship",
+   "date": "2026-11-10",
+   "source": "RMC Sport, ESPN",
+   "networks": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#TomBrady",
+    "#BirminghamCity",
+    "#Championship",
+    "#actufoot",
+    "#football"
+   ]
   }
  ],
  "counters": {
-  "alt": 85,
-  "music": 72,
+  "alt": 87,
+  "music": 74,
   "day": {
-   "date": "2026-11-09",
-   "all": 6,
+   "date": "2026-11-10",
+   "all": 2,
    "tiktok": 2
   }
  },
