@@ -998,8 +998,8 @@
   }
  ],
  "counters": {
-  "alt": 91,
-  "music": 81,
+  "alt": 92,
+  "music": 83,
   "day": {
    "date": "2026-11-10",
    "all": 5,
@@ -2168,6 +2168,54 @@
    "networks": [
     "facebook",
     "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1644335",
+   "home": "Amorebieta",
+   "away": "Logroñés",
+   "comp": "Copa del Rey",
+   "kickoff": "2026-11-10T20:00:00+01:00",
+   "hashtag": "#AMOLOG",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1644382",
+   "home": "Trival Valderas",
+   "away": "Leganés",
+   "comp": "Copa del Rey",
+   "kickoff": "2026-11-10T20:00:00+01:00",
+   "hashtag": "#TRILEG",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1644362",
+   "home": "Mijas Las Lagunas",
+   "away": "Real Jaén",
+   "comp": "Copa del Rey",
+   "kickoff": "2026-11-10T20:00:00+01:00",
+   "hashtag": "#MIJREA",
+   "networks": [
+    "facebook",
     "youtube",
     "threads",
     "linkedin",
