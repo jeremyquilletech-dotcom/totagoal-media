@@ -1084,15 +1084,54 @@
     "#foot",
     "#actufoot"
    ]
+  },
+  {
+   "key": "havre-ismael-entraineur",
+   "title": "Ligue 1 : Le Havre nomme Valérien Ismaël entraîneur",
+   "league": "Ligue 1",
+   "date": "2026-11-12",
+   "source": "Le Figaro, Foot Mercato",
+   "networks": [
+    "facebook",
+    "threads",
+    "linkedin",
+    "youtube",
+    "tiktok",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#LeHavre",
+    "#Ligue1",
+    "#entraineur"
+   ]
+  },
+  {
+   "key": "scaloni-argentine-2030",
+   "title": "Argentine : Scaloni prolonge jusqu'à la Coupe du monde 2030",
+   "league": "Sélections",
+   "date": "2026-11-12",
+   "source": "Foot Mercato, ESPN",
+   "networks": [
+    "facebook",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Scaloni",
+    "#Argentine",
+    "#CoupeDuMonde"
+   ]
   }
  ],
  "counters": {
-  "alt": 106,
-  "music": 101,
+  "alt": 108,
+  "music": 103,
   "day": {
    "date": "2026-11-12",
-   "all": 4,
-   "tiktok": 2
+   "all": 6,
+   "tiktok": 3
   }
  },
  "prematch": [
