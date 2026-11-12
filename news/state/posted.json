@@ -1065,8 +1065,8 @@
   }
  ],
  "counters": {
-  "alt": 102,
-  "music": 93,
+  "alt": 103,
+  "music": 96,
   "day": {
    "date": "2026-11-12",
    "all": 3,
@@ -2303,6 +2303,40 @@
     "threads",
     "linkedin",
     "x",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528958",
+   "home": "Türkiye",
+   "away": "Belgium",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-12T18:00:00+01:00",
+   "hashtag": "#TURBEL",
+   "networks": [
+    "facebook",
+    "instagram",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528959",
+   "home": "Armenia",
+   "away": "Cyprus",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-12T18:00:00+01:00",
+   "hashtag": "#ARMCYP",
+   "networks": [
+    "facebook",
+    "instagram",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
     "pinterest"
    ]
   }
