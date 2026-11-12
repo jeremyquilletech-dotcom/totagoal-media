@@ -1039,15 +1039,38 @@
     "#ManchesterUnited",
     "#mercato"
    ]
+  },
+  {
+   "key": "carrick-limoge-manchester-united",
+   "title": "Premier League : Manchester United limoge Michael Carrick",
+   "league": "Premier League",
+   "date": "2026-11-12",
+   "source": "Guardian, BBC Sport, RMC Sport",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "tiktok",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#ManchesterUnited",
+    "#Carrick",
+    "#PremierLeague",
+    "#limogeage",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 101,
-  "music": 92,
+  "alt": 102,
+  "music": 93,
   "day": {
    "date": "2026-11-12",
-   "all": 2,
-   "tiktok": 1
+   "all": 3,
+   "tiktok": 2
   }
  },
  "prematch": [
