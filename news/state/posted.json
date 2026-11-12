@@ -1062,14 +1062,36 @@
     "#limogeage",
     "#actufoot"
    ]
+  },
+  {
+   "key": "ghana-somalie-can2027",
+   "title": "Qualifs CAN 2027 : le Ghana s'impose 2-0 face à la Somalie",
+   "league": "Afrique",
+   "date": "2026-11-12",
+   "source": "BBC Sport Afrique",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Ghana",
+    "#CAN2027",
+    "#Afcon2027",
+    "#foot",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 103,
-  "music": 96,
+  "alt": 104,
+  "music": 97,
   "day": {
    "date": "2026-11-12",
-   "all": 3,
+   "all": 4,
    "tiktok": 2
   }
  },
