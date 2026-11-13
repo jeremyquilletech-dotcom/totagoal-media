@@ -1146,14 +1146,35 @@
     "#football",
     "#actufoot"
    ]
+  },
+  {
+   "key": "supercopa-argentine-estudiantes",
+   "title": "Supercopa Argentina : Estudiantes bat Independiente Rivadavia 3-2 après prolongations",
+   "league": "Argentine",
+   "date": "2026-11-13",
+   "source": "Infobae, Mundo Deportivo",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Estudiantes",
+    "#SupercopaArgentina",
+    "#Argentine",
+    "#football",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 109,
-  "music": 104,
+  "alt": 110,
+  "music": 105,
   "day": {
    "date": "2026-11-13",
-   "all": 1,
+   "all": 2,
    "tiktok": 1
   }
  },
