@@ -1167,15 +1167,58 @@
     "#football",
     "#actufoot"
    ]
+  },
+  {
+   "key": "kane-record-selections",
+   "title": "Angleterre : Harry Kane devient le joueur le plus sélectionné de l'histoire",
+   "league": "Sélections",
+   "date": "2026-11-13",
+   "source": "Sky Sports, Al Jazeera",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Kane",
+    "#ThreeLions",
+    "#Angleterre",
+    "#NationsLeague",
+    "#actufoot"
+   ]
+  },
+  {
+   "key": "fernandes-refuse-prolongation",
+   "title": "Manchester United : Bruno Fernandes refuse une deuxième offre de prolongation, selon Sky Sports",
+   "league": "Premier League",
+   "date": "2026-11-13",
+   "source": "Sky Sports, BBC Sport",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#BrunoFernandes",
+    "#ManchesterUnited",
+    "#PremierLeague",
+    "#mercato",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 110,
-  "music": 105,
+  "alt": 112,
+  "music": 107,
   "day": {
    "date": "2026-11-13",
-   "all": 2,
-   "tiktok": 1
+   "all": 4,
+   "tiktok": 2
   }
  },
  "prematch": [
