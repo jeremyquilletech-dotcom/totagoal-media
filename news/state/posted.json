@@ -1210,15 +1210,58 @@
     "#mercato",
     "#actufoot"
    ]
+  },
+  {
+   "key": "cote-ivoire-gambie-can2027",
+   "title": "Qualifs CAN 2027 : la Côte d'Ivoire s'impose 2-1 face à la Gambie",
+   "league": "Afrique",
+   "date": "2026-11-13",
+   "source": "Foot Africa, Sport News Africa",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#CotedIvoire",
+    "#CAN2027",
+    "#Elephants",
+    "#foot",
+    "#actufoot"
+   ]
+  },
+  {
+   "key": "pochettino-manchester-united-officiel",
+   "title": "Premier League : Manchester United officialise Pochettino",
+   "league": "Premier League",
+   "date": "2026-11-13",
+   "source": "ESPN, Mundo Deportivo",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Pochettino",
+    "#ManchesterUnited",
+    "#PremierLeague",
+    "#entraineur",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 112,
-  "music": 107,
+  "alt": 114,
+  "music": 109,
   "day": {
    "date": "2026-11-13",
-   "all": 4,
-   "tiktok": 2
+   "all": 6,
+   "tiktok": 3
   }
  },
  "prematch": [
