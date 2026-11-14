@@ -1384,8 +1384,8 @@
   }
  ],
  "counters": {
-  "alt": 126,
-  "music": 125,
+  "alt": 127,
+  "music": 132,
   "day": {
    "date": "2026-11-14",
    "all": 6,
@@ -2845,6 +2845,86 @@
    "comp": "Ligue des nations",
    "kickoff": "2026-11-14T18:00:00+01:00",
    "hashtag": "#GEOHUN",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528974",
+   "home": "Portugal",
+   "away": "Denmark",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T20:45:00+01:00",
+   "hashtag": "#PORDEN",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528976",
+   "home": "Austria",
+   "away": "Rep. Of Ireland",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T20:45:00+01:00",
+   "hashtag": "#AUTIRL",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528978",
+   "home": "Sweden",
+   "away": "Bosnia & Herzegovina",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T20:45:00+01:00",
+   "hashtag": "#SWEBIH",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528977",
+   "home": "Romania",
+   "away": "Poland",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T20:45:00+01:00",
+   "hashtag": "#ROUPOL",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528975",
+   "home": "Northern Ireland",
+   "away": "Ukraine",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T20:45:00+01:00",
+   "hashtag": "#NIRUKR",
    "networks": [
     "facebook",
     "twitter",
