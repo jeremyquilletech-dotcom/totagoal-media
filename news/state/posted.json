@@ -1359,15 +1359,37 @@
     "#Allemagne",
     "#actufoot"
    ]
+  },
+  {
+   "key": "portugal-maillot-7-hommage-ronaldo",
+   "title": "Portugal : le numéro 7 change de design en hommage à Cristiano Ronaldo",
+   "league": "Sélections",
+   "date": "2026-11-14",
+   "source": "ESPN, Foot Mercato",
+   "networks": [
+    "facebook",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Portugal",
+    "#CristianoRonaldo",
+    "#CR7",
+    "#Selecao",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 125,
-  "music": 124,
+  "alt": 126,
+  "music": 125,
   "day": {
    "date": "2026-11-14",
-   "all": 5,
-   "tiktok": 1
+   "all": 6,
+   "tiktok": 2
   }
  },
  "prematch": [
