@@ -1317,14 +1317,35 @@
         "#Digard",
         "#entraineur"
       ]
+    },
+    {
+      "key": "bresil-japon-amical",
+      "title": "Amical : le Brésil battu 3-2 par le Japon malgré un doublé de Vinicius",
+      "league": "Sélections",
+      "date": "2026-11-14",
+      "source": "RMC Sport, Foot Mercato",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "pinterest"
+      ],
+      "hashtags": [
+        "#Bresil",
+        "#Japon",
+        "#Vinicius",
+        "#Ancelotti",
+        "#actufoot"
+      ]
     }
   ],
   "counters": {
-    "alt": 122,
-    "music": 118,
+    "alt": 123,
+    "music": 119,
     "day": {
       "date": "2026-11-14",
-      "all": 3,
+      "all": 4,
       "tiktok": 1
     }
   },
