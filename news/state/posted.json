@@ -1253,15 +1253,57 @@
         "#entraineur",
         "#actufoot"
       ]
+    },
+    {
+      "key": "argentine-uruguay-post-messi",
+      "title": "Argentine : battue 2-1 par l'Uruguay pour son premier match sans Messi",
+      "league": "Sélections",
+      "date": "2026-11-14",
+      "source": "ESPN, RMC Sport",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "pinterest"
+      ],
+      "hashtags": [
+        "#Argentine",
+        "#Messi",
+        "#Scaloni",
+        "#Uruguay",
+        "#actufoot"
+      ]
+    },
+    {
+      "key": "salah-record-egypte",
+      "title": "Égypte : Mohamed Salah devient le meilleur buteur de l'histoire de la sélection",
+      "league": "Afrique",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "pinterest"
+      ],
+      "hashtags": [
+        "#Salah",
+        "#Egypte",
+        "#CAN2027",
+        "#football",
+        "#actufoot"
+      ]
     }
   ],
   "counters": {
-    "alt": 118,
-    "music": 114,
+    "alt": 120,
+    "music": 116,
     "day": {
-      "date": "2026-11-13",
-      "all": 6,
-      "tiktok": 3
+      "date": "2026-11-14",
+      "all": 2,
+      "tiktok": 0
     }
   },
   "prematch": [
