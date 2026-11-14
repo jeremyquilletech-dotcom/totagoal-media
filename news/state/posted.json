@@ -1320,8 +1320,8 @@
     }
   ],
   "counters": {
-    "alt": 121,
-    "music": 117,
+    "alt": 122,
+    "music": 118,
     "day": {
       "date": "2026-11-14",
       "all": 3,
@@ -2733,6 +2733,22 @@
       "comp": "Ligue des nations",
       "kickoff": "2026-11-13T20:45:00+01:00",
       "hashtag": "#BULISL",
+      "networks": [
+        "facebook",
+        "twitter",
+        "threads",
+        "linkedin",
+        "youtube",
+        "pinterest"
+      ]
+    },
+    {
+      "id": "1528971",
+      "home": "Kosovo",
+      "away": "Israel",
+      "comp": "Ligue des nations",
+      "kickoff": "2026-11-14T15:00:00+01:00",
+      "hashtag": "#KOSISR",
       "networks": [
         "facebook",
         "twitter",
