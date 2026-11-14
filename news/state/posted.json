@@ -1295,15 +1295,37 @@
         "#football",
         "#actufoot"
       ]
+    },
+    {
+      "key": "lens-digard-entraineur",
+      "title": "Ligue 1 : Lens nomme Didier Digard entraîneur",
+      "league": "Ligue 1",
+      "date": "2026-11-14",
+      "source": "RMC Sport, Le Monde, Foot Mercato",
+      "networks": [
+        "facebook",
+        "youtube",
+        "threads",
+        "linkedin",
+        "pinterest",
+        "tiktok"
+      ],
+      "hashtags": [
+        "#Lens",
+        "#RCLens",
+        "#Ligue1",
+        "#Digard",
+        "#entraineur"
+      ]
     }
   ],
   "counters": {
-    "alt": 120,
-    "music": 116,
+    "alt": 121,
+    "music": 117,
     "day": {
       "date": "2026-11-14",
-      "all": 2,
-      "tiktok": 0
+      "all": 3,
+      "tiktok": 1
     }
   },
   "prematch": [
