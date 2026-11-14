@@ -1362,8 +1362,8 @@
   }
  ],
  "counters": {
-  "alt": 124,
-  "music": 120,
+  "alt": 125,
+  "music": 124,
   "day": {
    "date": "2026-11-14",
    "all": 5,
@@ -2791,6 +2791,38 @@
    "comp": "Ligue des nations",
    "kickoff": "2026-11-14T15:00:00+01:00",
    "hashtag": "#KOSISR",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528972",
+   "home": "Norway",
+   "away": "Wales",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T18:00:00+01:00",
+   "hashtag": "#NORWAL",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528973",
+   "home": "Georgia",
+   "away": "Hungary",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-14T18:00:00+01:00",
+   "hashtag": "#GEOHUN",
    "networks": [
     "facebook",
     "twitter",
