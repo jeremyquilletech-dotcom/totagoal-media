@@ -1404,14 +1404,36 @@
     "#Bleus",
     "#actufoot"
    ]
+  },
+  {
+   "key": "yamal-numero-10-espagne",
+   "title": "Espagne : Lamine Yamal portera le numéro 10 face à l'Angleterre",
+   "league": "Sélections",
+   "date": "2026-11-15",
+   "source": "Foot Mercato",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest"
+   ],
+   "hashtags": [
+    "#Yamal",
+    "#Espagne",
+    "#Barca",
+    "#LigueDesNations",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 132,
-  "music": 133,
+  "alt": 133,
+  "music": 134,
   "day": {
    "date": "2026-11-15",
-   "all": 1,
+   "all": 2,
    "tiktok": 1
   }
  },
