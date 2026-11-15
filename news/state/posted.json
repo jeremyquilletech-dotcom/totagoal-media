@@ -1381,15 +1381,38 @@
     "#Selecao",
     "#actufoot"
    ]
+  },
+  {
+   "key": "lloris-1000-matchs",
+   "title": "MLS : Hugo Lloris devient le premier Français à 1 000 matchs pros",
+   "league": "MLS",
+   "date": "2026-11-15",
+   "source": "Foot Mercato, L'Équipe",
+   "networks": [
+    "facebook",
+    "instagram",
+    "youtube",
+    "threads",
+    "linkedin",
+    "pinterest",
+    "tiktok"
+   ],
+   "hashtags": [
+    "#Lloris",
+    "#LAFC",
+    "#MLS",
+    "#Bleus",
+    "#actufoot"
+   ]
   }
  ],
  "counters": {
-  "alt": 131,
-  "music": 132,
+  "alt": 132,
+  "music": 133,
   "day": {
-   "date": "2026-11-14",
-   "all": 6,
-   "tiktok": 2
+   "date": "2026-11-15",
+   "all": 1,
+   "tiktok": 1
   }
  },
  "prematch": [
