@@ -1429,8 +1429,8 @@
   }
  ],
  "counters": {
-  "alt": 133,
-  "music": 134,
+  "alt": 134,
+  "music": 138,
   "day": {
    "date": "2026-11-15",
    "all": 2,
@@ -2970,6 +2970,38 @@
    "comp": "Ligue des nations",
    "kickoff": "2026-11-14T20:45:00+01:00",
    "hashtag": "#NIRUKR",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1545616",
+   "home": "Latvia",
+   "away": "Armenia",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-15T15:00:00+01:00",
+   "hashtag": "#LVAARM",
+   "networks": [
+    "facebook",
+    "twitter",
+    "threads",
+    "linkedin",
+    "youtube",
+    "pinterest"
+   ]
+  },
+  {
+   "id": "1528979",
+   "home": "Cyprus",
+   "away": "Montenegro",
+   "comp": "Ligue des nations",
+   "kickoff": "2026-11-15T15:00:00+01:00",
+   "hashtag": "#CYPMNE",
    "networks": [
     "facebook",
     "twitter",
